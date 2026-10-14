@@ -3,26 +3,20 @@
     "registryId": "devpulse-test",
     "schemaVersion": 1,
     "type": "devpulse-registry-revocations",
-    "version": 3,
+    "version": 2,
     "revocations": [
       {
         "packageId": "placeholder.counter",
         "reason": "Test revocation: version 0.1.0 is withdrawn to check that DevPulse turns it off.",
         "revokedAt": "2026-10-14T21:26:51Z",
         "version": "0.1.0"
-      },
-      {
-        "packageId": "placeholder.counter",
-        "reason": "Test revocation: version 0.2.0 is withdrawn to check the notification.",
-        "revokedAt": "2026-10-14T21:32:28Z",
-        "version": "0.2.0"
       }
     ]
   },
   "signatures": [
     {
       "keyId": "SHA256:TypnUA3L2DdHmyw1YCUS2KZBS4cdC1OdOhmiZ1VeMkM",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg3FjhjoXgLBmeBFYh+/9xNG2Vdj\ngO2TqeETzsCOXrnfcAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA28+Yfk7G5k0HI+M68Lp77raVINVommuGzMreVfLyM/51sK\nCm0j7Tdu7/X4KhyGzTn1zW2K75FIE2FSBrE44GAQ==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg3FjhjoXgLBmeBFYh+/9xNG2Vdj\ngO2TqeETzsCOXrnfcAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA5LXT74GQoqV9WVQU36GiyFgTYgI1O9aIJTMlUuFQ5Nqb43\nZn9ehzEwLkINt1AYLm5aBF/60/OqkggFFL7A4ODw==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }
