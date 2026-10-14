@@ -83,7 +83,7 @@
           },
           "version": "0.1.0"
         },
-        "publishedAt": "2026-10-14T19:47:24Z",
+        "publishedAt": "2026-10-14T19:52:16Z",
         "status": {
           "state": "active"
         },
@@ -94,7 +94,7 @@
   "signatures": [
     {
       "keyId": "SHA256:+pzy5JRg/t1mxX7uzOqpzzBZMcXTruEsDDWFUtqvPck",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA3Lbxmt8Oll+Jfn/oAoUAxcRWtpXcNQYWvWXXWJs5CyV0O5\nz45+4uRYLh0iIgCbrwyA6dqj56Zg7Iw8HEZ8T8AA==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAqtSqPBSUVmn0mbakYOsrSSSW2wYTMHIruG9b9a4SMXLc97\nGDc6t/jVo8cPPuNGmZFBQPNb7Z0p8hVPb9LmNVAw==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-listing",
+    "version": 1,
+    "addons": [],
+    "section": "apps"
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:GeHOk5u7CE9cXksqLrsDKaV0On0ULwV4iG2AsQeZyZI",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgVeoLS4xWhH3KcEsZaA4inM7Xh+\nTyvR7XUZjeFg/Jh4sAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAB/LRfxigPdRu5vFTViqXDkneVPMmN9UikpfrMYJ7cVE8G4\nl81MsF90JrXnxr5Aee/gOgBvXvwbPAks8YBndOCw==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}

@@ -6,7 +6,7 @@
     "version": 2,
     "addons": {
       "placeholder.long-readme": {
-        "sha256": "7f530da426334527704019568ce480233e13867fb94f79f4a6d262e0f1ffd6fb",
+        "sha256": "5bbe3d102c2113af9c3a445e3e2a74ba244585024227e6757a5ccb99b839c3e6",
         "size": 4119,
         "version": 1
       }
@@ -21,7 +21,7 @@
   "signatures": [
     {
       "keyId": "SHA256:UtO6B/VwxFuFXTvLmUOq89X+kFZjLGmW0LDbNdJpQtI",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPSVV9afkAvs0ZWeZi8y495OoqU\nNQl0Ap5KqkoSrMaKUAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAzDqEboIpiWqIDqErocdpfpM4/gehzOWVrFIvVv5Dk8l1z8\nV1+H0m2PBz/z/6bGEYgKRZecyvl8v/uyAPVUmwDg==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPSVV9afkAvs0ZWeZi8y495OoqU\nNQl0Ap5KqkoSrMaKUAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAWIiYSOaN2si7YVXhbO/xJzzP/4F2AktEVJWe3womkdTrcA\nU58dEcd0UUFUyECfaZeqKtpspNb0a5m14a+jLHAw==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }
