@@ -10,12 +10,6 @@
         "reason": "Test revocation: version 0.1.0 is withdrawn to check that DevPulse turns it off.",
         "revokedAt": "2026-10-14T21:26:51Z",
         "version": "0.1.0"
-      },
-      {
-        "packageId": "placeholder.counter",
-        "reason": "Test revocation: version 0.2.0 is withdrawn to check the notification.",
-        "revokedAt": "2026-10-14T21:32:28Z",
-        "version": "0.2.0"
       }
     ]
   },
