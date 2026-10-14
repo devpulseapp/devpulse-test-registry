@@ -1,0 +1,71 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-root",
+    "version": 1,
+    "fileOrigins": [
+      "https://github.com"
+    ],
+    "keys": [
+      {
+        "keyId": "SHA256:+pzy5JRg/t1mxX7uzOqpzzBZMcXTruEsDDWFUtqvPck",
+        "publicKey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEBiM/0BfWNM6c53CeioTotduNPPd+4tdyJkGZcqgkGW"
+      },
+      {
+        "keyId": "SHA256:AhEsqf0uxYyrueeVpeQHkyRa98T266qCo5knx6DQf3g",
+        "publicKey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEhZsczK3+4J0+TFf8Qo2oYQuyY4Trk//ykI5u1WxOMs"
+      },
+      {
+        "keyId": "SHA256:GeHOk5u7CE9cXksqLrsDKaV0On0ULwV4iG2AsQeZyZI",
+        "publicKey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFXqC0uMVoR9ynBLGWgOIpzO14fk8r0e11GY3hYPyYeL"
+      },
+      {
+        "keyId": "SHA256:TypnUA3L2DdHmyw1YCUS2KZBS4cdC1OdOhmiZ1VeMkM",
+        "publicKey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINxY4Y6F4CwZngRWIfv/cTRtlXY4Dtk6nhE87Ajl6533"
+      },
+      {
+        "keyId": "SHA256:UtO6B/VwxFuFXTvLmUOq89X+kFZjLGmW0LDbNdJpQtI",
+        "publicKey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAID0lVfWn5AL7NGVnmYvMuPeTqKlDUJdAKeSqpKEqzGil"
+      }
+    ],
+    "roles": {
+      "root": {
+        "keyIds": [
+          "SHA256:AhEsqf0uxYyrueeVpeQHkyRa98T266qCo5knx6DQf3g"
+        ],
+        "threshold": 1
+      },
+      "registry": {
+        "keyIds": [
+          "SHA256:TypnUA3L2DdHmyw1YCUS2KZBS4cdC1OdOhmiZ1VeMkM"
+        ],
+        "threshold": 1
+      },
+      "widgets": {
+        "keyIds": [
+          "SHA256:+pzy5JRg/t1mxX7uzOqpzzBZMcXTruEsDDWFUtqvPck"
+        ],
+        "threshold": 1
+      },
+      "analyzers": {
+        "keyIds": [
+          "SHA256:UtO6B/VwxFuFXTvLmUOq89X+kFZjLGmW0LDbNdJpQtI"
+        ],
+        "threshold": 1
+      },
+      "apps": {
+        "keyIds": [
+          "SHA256:GeHOk5u7CE9cXksqLrsDKaV0On0ULwV4iG2AsQeZyZI"
+        ],
+        "threshold": 1
+      }
+    }
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:AhEsqf0uxYyrueeVpeQHkyRa98T266qCo5knx6DQf3g",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgSFmxzMrf7gnT5MV/xCjahhC7Jj\nhOuT//KQjm7VbE4ywAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAR7fQjMXKnCSFZsHaSlMfQsSTwOwcSxwRM8OG5eo0sUjyL8\nl0ku7Ea0mZocbTTV3++iEt6TDvI4jJqRkJ5WTgBw==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}

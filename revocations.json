@@ -1,0 +1,15 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-revocations",
+    "version": 1,
+    "revocations": []
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:TypnUA3L2DdHmyw1YCUS2KZBS4cdC1OdOhmiZ1VeMkM",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg3FjhjoXgLBmeBFYh+/9xNG2Vdj\ngO2TqeETzsCOXrnfcAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABApvPJyEdkkmx6vMraN9uZ8/+U2/TTE5b34A5HhHijrlEm+7\nPZ/bg1BN2FgJXcGIqo81Ksv9eb//ry7dNLg4JnDA==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}

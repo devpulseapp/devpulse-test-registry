@@ -1,0 +1,87 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-addon",
+    "version": 1,
+    "id": "placeholder.sample-app",
+    "repository": "https://github.com/devpulseapp/devpulse-test-app-sample",
+    "section": "apps",
+    "versions": [
+      {
+        "file": {
+          "name": "placeholder.sample-app-0.1.0.devpulse-app",
+          "sha256": "e09ab8c847562d5d6ffd3e014cf0c264bc8e1a6c54644b9c28762d2e524e2d46",
+          "size": 11962,
+          "url": "https://github.com/devpulseapp/devpulse-test-app-sample/releases/download/2026.10.14/placeholder.sample-app-0.1.0.devpulse-app"
+        },
+        "manifest": {
+          "apiFeatures": {
+            "optional": [],
+            "required": [
+              "contributions.integration-v1"
+            ]
+          },
+          "apiVersion": 2,
+          "authors": [
+            {
+              "name": "Marketplace test placeholder"
+            }
+          ],
+          "category": "tool",
+          "changelog": "CHANGELOG.md",
+          "contributes": [
+            {
+              "description": "Adds nothing; it only tests the Apps section.",
+              "displayName": "Placeholder Sample App",
+              "id": "sample",
+              "permissionIds": [],
+              "requirementIds": [],
+              "settingIds": [],
+              "type": "integration"
+            }
+          ],
+          "defaultLocale": "en",
+          "description": "A placeholder App for testing the DevPulse Marketplace. DevPulse cannot install Apps yet.",
+          "displayName": "Placeholder Sample App",
+          "engines": {
+            "devpulse": ">=0.0.1 <1.0.0"
+          },
+          "id": "placeholder.sample-app",
+          "license": "Apache-2.0",
+          "licenseFile": "LICENSE",
+          "locales": [],
+          "manifestVersion": 2,
+          "permissions": [],
+          "publisher": {
+            "displayName": "Marketplace test placeholder",
+            "id": "placeholder"
+          },
+          "readme": "README.md",
+          "requirements": [],
+          "runtime": {
+            "id": "sample-app",
+            "tier": "declarative"
+          },
+          "settings": [],
+          "target": {
+            "architecture": "any",
+            "platform": "any"
+          },
+          "version": "0.1.0"
+        },
+        "publishedAt": "2026-10-14T19:47:25Z",
+        "status": {
+          "state": "active"
+        },
+        "version": "0.1.0"
+      }
+    ]
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:GeHOk5u7CE9cXksqLrsDKaV0On0ULwV4iG2AsQeZyZI",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgVeoLS4xWhH3KcEsZaA4inM7Xh+\nTyvR7XUZjeFg/Jh4sAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA9VCMgj+P26mZxU43cFNVCAJr8pk4lz7GptsGkm9h2O0hUN\nGKklDKmvDj5agqSM7QxpWh0iAUujq8sF2Ey0c1Cw==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}

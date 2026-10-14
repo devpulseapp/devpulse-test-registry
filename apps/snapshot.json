@@ -1,0 +1,27 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-snapshot",
+    "version": 2,
+    "addons": {
+      "placeholder.sample-app": {
+        "sha256": "fd74cee48d2771dab0fba6edc57d72d8ee13af97c0b92d710d808f8da28ca8b3",
+        "size": 2940,
+        "version": 1
+      }
+    },
+    "listing": {
+      "sha256": "32c156511b9ecc11b11dfe40cc927a42341ef19b6082a4d2206e4b0ffcfc8933",
+      "size": 1072,
+      "version": 2
+    },
+    "section": "apps"
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:GeHOk5u7CE9cXksqLrsDKaV0On0ULwV4iG2AsQeZyZI",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgVeoLS4xWhH3KcEsZaA4inM7Xh+\nTyvR7XUZjeFg/Jh4sAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABALSoV6CqSHZXZP0YqVNbZyu/B1yOqGisupYlPSnIhRA5Hf2\nbxK7OgWS6PLbolv3f+hN9uVRCAIHtjj6AlrM2/AA==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}

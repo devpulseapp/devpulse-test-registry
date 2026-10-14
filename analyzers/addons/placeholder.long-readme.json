@@ -1,0 +1,123 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-addon",
+    "version": 1,
+    "id": "placeholder.long-readme",
+    "repository": "https://github.com/devpulseapp/devpulse-test-analyzers",
+    "section": "analyzers",
+    "versions": [
+      {
+        "file": {
+          "name": "placeholder.long-readme-0.1.0.devpulse-analyzer",
+          "sha256": "19fdb7cd356c27cace44e6a8516c818c321ecc36e7f118579cb840657a5d7651",
+          "size": 12505,
+          "url": "https://github.com/devpulseapp/devpulse-test-analyzers/releases/download/2026.10.14/placeholder.long-readme-0.1.0.devpulse-analyzer"
+        },
+        "manifest": {
+          "apiFeatures": {
+            "optional": [],
+            "required": [
+              "contributions.check-v1",
+              "checks.line-threshold"
+            ]
+          },
+          "apiVersion": 2,
+          "authors": [
+            {
+              "name": "Marketplace test placeholder"
+            }
+          ],
+          "category": "developer",
+          "changelog": "CHANGELOG.md",
+          "contributes": [
+            {
+              "category": "maintainability",
+              "description": "Reports a README.md longer than 400 lines.",
+              "detector": {
+                "kind": "line-threshold",
+                "maximumLines": 400,
+                "outputId": "long-readme",
+                "paths": [
+                  "README.md"
+                ]
+              },
+              "displayName": "Long README",
+              "execution": {
+                "automatic": "user-opt-in",
+                "cost": "cheap",
+                "maximumMemoryMiB": 32,
+                "timeoutMs": 5000
+              },
+              "id": "long-readme",
+              "outputs": [
+                {
+                  "defaultSeverity": "info",
+                  "description": "README.md is longer than 400 lines.",
+                  "displayName": "Long README",
+                  "id": "long-readme"
+                }
+              ],
+              "permissionIds": [
+                "read-readme"
+              ],
+              "requirementIds": [],
+              "settingIds": [],
+              "type": "check"
+            }
+          ],
+          "defaultLocale": "en",
+          "description": "A placeholder Analyzer for testing the DevPulse Marketplace: reports a README.md longer than 400 lines.",
+          "displayName": "Placeholder Long README",
+          "engines": {
+            "devpulse": ">=0.0.1 <1.0.0"
+          },
+          "id": "placeholder.long-readme",
+          "license": "Apache-2.0",
+          "licenseFile": "LICENSE",
+          "locales": [],
+          "manifestVersion": 2,
+          "permissions": [
+            {
+              "capability": "workspace.files.read",
+              "id": "read-readme",
+              "reason": "Counts the lines of your README.md.",
+              "requiredness": "required",
+              "scope": {
+                "kind": "open-project"
+              }
+            }
+          ],
+          "publisher": {
+            "displayName": "Marketplace test placeholder",
+            "id": "placeholder"
+          },
+          "readme": "README.md",
+          "requirements": [],
+          "runtime": {
+            "id": "long-readme",
+            "tier": "declarative"
+          },
+          "settings": [],
+          "target": {
+            "architecture": "any",
+            "platform": "any"
+          },
+          "version": "0.1.0"
+        },
+        "publishedAt": "2026-10-14T19:47:25Z",
+        "status": {
+          "state": "active"
+        },
+        "version": "0.1.0"
+      }
+    ]
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:UtO6B/VwxFuFXTvLmUOq89X+kFZjLGmW0LDbNdJpQtI",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPSVV9afkAvs0ZWeZi8y495OoqU\nNQl0Ap5KqkoSrMaKUAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAvwTG+vxtQNA3+OJN5/hWxFg6qnE1NqLEuQO9f+XIi8h+N/\nj0pv/KDqvIEclxocp5jm0cxFnEYV6vZrJfDPnaDQ==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}
