@@ -1,0 +1,29 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-listing",
+    "version": 3,
+    "addons": [
+      {
+        "category": "tool",
+        "description": "A placeholder Widget for testing the DevPulse Marketplace: click to count.",
+        "devpulse": ">=0.0.1 <1.0.0",
+        "displayName": "Placeholder Counter",
+        "id": "placeholder.counter",
+        "latestVersion": "0.2.0",
+        "publisher": {
+          "displayName": "Marketplace test placeholder",
+          "id": "placeholder"
+        }
+      }
+    ],
+    "section": "widgets"
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:+pzy5JRg/t1mxX7uzOqpzzBZMcXTruEsDDWFUtqvPck",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABASOrcfPsFLywz2631f+pB3dZax1luCFcyCHyXSrHseXsAD6\nCigqAv7gf7L5I3u0eBTxZKsSgoLSIOo46qqHieDQ==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}
