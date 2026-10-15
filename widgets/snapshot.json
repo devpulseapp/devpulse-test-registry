@@ -3,7 +3,7 @@
     "registryId": "devpulse-test",
     "schemaVersion": 1,
     "type": "devpulse-registry-snapshot",
-    "version": 7,
+    "version": 8,
     "addons": {
       "placeholder.ahead": {
         "sha256": "8d709be06c335333c3c1cc0737abefbab18532c96804a3ff13c78aa5678d1d49",
@@ -11,9 +11,9 @@
         "version": 1
       },
       "placeholder.counter": {
-        "sha256": "cde45f2094eca2047a1cae0ca734661c1d2c4ac543fd61952e43c8432dd64a0f",
-        "size": 13741,
-        "version": 5
+        "sha256": "5b1eddf59c71846c55e4e11ccfd070818c6ca060f47c80de7f394b92af104162",
+        "size": 16342,
+        "version": 6
       },
       "placeholder.large": {
         "sha256": "01a2bdada781b2997bf521d827e46cd8d2a08048f273accf73151adf77937ed1",
@@ -27,16 +27,16 @@
       }
     },
     "listing": {
-      "sha256": "4ecf03d6c77f21253657de08ac47280d2cd7e7f37b517ae666f8cef50e5b6a83",
+      "sha256": "860a8173e6ad81b464fe6efad465214a4e1d5466f50dc17eab66db8d67518e30",
       "size": 2419,
-      "version": 7
+      "version": 8
     },
     "section": "widgets"
   },
   "signatures": [
     {
       "keyId": "SHA256:+pzy5JRg/t1mxX7uzOqpzzBZMcXTruEsDDWFUtqvPck",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAZBk6NEwv54qgc9zOjyUtHFPaZWMfI19Dap+gKXo7kwZKCU\nUaMk4ECsG1zsHV+AWF1HRoZEFHBo7yFV7AZhjOCw==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA1YenYe4PpD8bDYfHuS+bqb8cEdvmb4mhMLcf/issDSXT8T\nj81C5+CgLudNGrcclTgptn43QByaNSG+w0RCCjCQ==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }

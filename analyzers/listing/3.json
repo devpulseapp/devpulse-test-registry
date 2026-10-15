@@ -1,0 +1,29 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-listing",
+    "version": 3,
+    "addons": [
+      {
+        "category": "developer",
+        "description": "A placeholder Analyzer for testing the DevPulse Marketplace: reports a README.md longer than 400 lines.",
+        "devpulse": ">=0.0.1 <1.0.0",
+        "displayName": "Placeholder Long README",
+        "id": "placeholder.long-readme",
+        "latestVersion": "0.2.0",
+        "publisher": {
+          "displayName": "Marketplace test placeholder",
+          "id": "placeholder"
+        }
+      }
+    ],
+    "section": "analyzers"
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:UtO6B/VwxFuFXTvLmUOq89X+kFZjLGmW0LDbNdJpQtI",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPSVV9afkAvs0ZWeZi8y495OoqU\nNQl0Ap5KqkoSrMaKUAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAU6ewoCOTGy3f6FgxQMM1mcV52RPcKYqLY/i2BQ4iXh3b2i\nqrYwhamVVkjABIiWDq23zKGqeZHzlXyJkEi9n1BQ==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}
