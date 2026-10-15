@@ -1,0 +1,100 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-addon",
+    "version": 1,
+    "id": "placeholder.update-check",
+    "repository": "https://github.com/devpulseapp/devpulse-test-widgets",
+    "section": "widgets",
+    "versions": [
+      {
+        "file": {
+          "name": "placeholder.update-check-0.2.0.devpulse-widget",
+          "sha256": "23c03c2467a0d6e2e68e98c74920b0d43b47d62801ba3d37af25ea9409b50059",
+          "size": 23163,
+          "url": "https://github.com/devpulseapp/devpulse-test-widgets/releases/download/2026.10.15.5/placeholder.update-check-0.2.0.devpulse-widget"
+        },
+        "manifest": {
+          "apiFeatures": {
+            "optional": [],
+            "required": [
+              "contributions.widget-v1",
+              "widgets.board-v1"
+            ]
+          },
+          "apiVersion": 2,
+          "authors": [
+            {
+              "name": "Marketplace test placeholder"
+            }
+          ],
+          "category": "tool",
+          "changelog": "CHANGELOG.md",
+          "contributes": [
+            {
+              "actions": [
+                {
+                  "description": "Press the cell.",
+                  "id": "press"
+                }
+              ],
+              "description": "A placeholder Widget for testing an update: install the local 0.1.0 file, and the Marketplace offers 0.2.0.",
+              "displayName": "Placeholder Update Check",
+              "icon": "grid",
+              "id": "cell",
+              "permissionIds": [],
+              "placement": "titlebar-right",
+              "presentation": "board",
+              "requirementIds": [],
+              "settingIds": [],
+              "type": "widget"
+            }
+          ],
+          "defaultLocale": "en",
+          "description": "A placeholder Widget for testing an update: install the local 0.1.0 file, and the Marketplace offers 0.2.0.",
+          "displayName": "Placeholder Update Check",
+          "engines": {
+            "devpulse": ">=0.0.1 <1.0.0"
+          },
+          "id": "placeholder.update-check",
+          "license": "Apache-2.0",
+          "licenseFile": "LICENSE",
+          "locales": [],
+          "manifestVersion": 2,
+          "permissions": [],
+          "publisher": {
+            "displayName": "Marketplace test placeholder",
+            "id": "placeholder"
+          },
+          "readme": "README.md",
+          "requirements": [],
+          "runtime": {
+            "artifact": "javascript-es2020",
+            "entrypoint": "runtime/main.js",
+            "id": "main",
+            "protocol": "devpulse-addon-runtime/v1",
+            "tier": "restricted-javascript"
+          },
+          "settings": [],
+          "target": {
+            "architecture": "any",
+            "platform": "any"
+          },
+          "version": "0.2.0"
+        },
+        "publishedAt": "2026-10-15T05:37:22Z",
+        "status": {
+          "state": "active"
+        },
+        "version": "0.2.0"
+      }
+    ]
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:+pzy5JRg/t1mxX7uzOqpzzBZMcXTruEsDDWFUtqvPck",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAgsZXJkjuyJ71Nzf0UYdHuI4+AzkTabA1mjIbvhXOJ/teXR\nqrAJ8fwT7X5f1VIuSJi51JFVwP+rxxH3jo3LhhCg==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}

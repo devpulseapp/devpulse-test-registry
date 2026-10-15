@@ -1,0 +1,65 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-listing",
+    "version": 7,
+    "addons": [
+      {
+        "category": "tool",
+        "description": "A placeholder Widget for testing a newer install: install the local 9.0.0 file, and the Marketplace says it is newer than its 0.1.0.",
+        "devpulse": ">=0.0.1 <1.0.0",
+        "displayName": "Placeholder Ahead",
+        "id": "placeholder.ahead",
+        "latestVersion": "0.1.0",
+        "publisher": {
+          "displayName": "Marketplace test placeholder",
+          "id": "placeholder"
+        }
+      },
+      {
+        "category": "tool",
+        "description": "A placeholder Widget for testing the DevPulse Marketplace: click to count.",
+        "devpulse": ">=0.0.1 <1.0.0",
+        "displayName": "Placeholder Counter",
+        "id": "placeholder.counter",
+        "latestVersion": "0.5.0",
+        "publisher": {
+          "displayName": "Marketplace test placeholder",
+          "id": "placeholder"
+        }
+      },
+      {
+        "category": "tool",
+        "description": "A placeholder Widget of about 6 MB for testing the Marketplace's download progress.",
+        "devpulse": ">=0.0.1 <1.0.0",
+        "displayName": "Placeholder Large",
+        "id": "placeholder.large",
+        "latestVersion": "0.1.0",
+        "publisher": {
+          "displayName": "Marketplace test placeholder",
+          "id": "placeholder"
+        }
+      },
+      {
+        "category": "tool",
+        "description": "A placeholder Widget for testing an update: install the local 0.1.0 file, and the Marketplace offers 0.2.0.",
+        "devpulse": ">=0.0.1 <1.0.0",
+        "displayName": "Placeholder Update Check",
+        "id": "placeholder.update-check",
+        "latestVersion": "0.2.0",
+        "publisher": {
+          "displayName": "Marketplace test placeholder",
+          "id": "placeholder"
+        }
+      }
+    ],
+    "section": "widgets"
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:+pzy5JRg/t1mxX7uzOqpzzBZMcXTruEsDDWFUtqvPck",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAY8GwSWdtgkU1CZjBQKryF7kN/BICqBDZpEp08iX3lwhKmY\nrOUoSMrHTKnjd9A0BU34H9hIS1fNwQuCNj5aAjAQ==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}

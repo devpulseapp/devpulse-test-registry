@@ -1,0 +1,104 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-addon",
+    "version": 1,
+    "id": "placeholder.large",
+    "repository": "https://github.com/devpulseapp/devpulse-test-widgets",
+    "section": "widgets",
+    "versions": [
+      {
+        "file": {
+          "name": "placeholder.large-0.1.0.devpulse-widget",
+          "sha256": "34be21361c119c74d1fe89fabbab8e5d35f86548946b8f2d8df05015e20f7f9b",
+          "size": 6027351,
+          "url": "https://github.com/devpulseapp/devpulse-test-widgets/releases/download/2026.10.15.5/placeholder.large-0.1.0.devpulse-widget"
+        },
+        "manifest": {
+          "apiFeatures": {
+            "optional": [],
+            "required": [
+              "contributions.widget-v1",
+              "widgets.board-v1"
+            ]
+          },
+          "apiVersion": 2,
+          "authors": [
+            {
+              "name": "Marketplace test placeholder"
+            }
+          ],
+          "category": "tool",
+          "changelog": "CHANGELOG.md",
+          "contributes": [
+            {
+              "actions": [
+                {
+                  "description": "Press the cell.",
+                  "id": "press"
+                }
+              ],
+              "description": "A placeholder Widget of about 6 MB for testing the Marketplace's download progress.",
+              "displayName": "Placeholder Large",
+              "icon": "grid",
+              "id": "cell",
+              "permissionIds": [],
+              "placement": "titlebar-right",
+              "presentation": "board",
+              "requirementIds": [],
+              "settingIds": [],
+              "type": "widget"
+            }
+          ],
+          "defaultLocale": "en",
+          "description": "A placeholder Widget of about 6 MB for testing the Marketplace's download progress.",
+          "displayName": "Placeholder Large",
+          "engines": {
+            "devpulse": ">=0.0.1 <1.0.0"
+          },
+          "id": "placeholder.large",
+          "license": "Apache-2.0",
+          "licenseFile": "LICENSE",
+          "locales": [],
+          "manifestVersion": 2,
+          "permissions": [],
+          "publisher": {
+            "displayName": "Marketplace test placeholder",
+            "id": "placeholder"
+          },
+          "readme": "README.md",
+          "readmeMedia": [
+            "media/noise-1.png",
+            "media/noise-2.png"
+          ],
+          "requirements": [],
+          "runtime": {
+            "artifact": "javascript-es2020",
+            "entrypoint": "runtime/main.js",
+            "id": "main",
+            "protocol": "devpulse-addon-runtime/v1",
+            "tier": "restricted-javascript"
+          },
+          "settings": [],
+          "target": {
+            "architecture": "any",
+            "platform": "any"
+          },
+          "version": "0.1.0"
+        },
+        "publishedAt": "2026-10-15T05:37:22Z",
+        "status": {
+          "state": "active"
+        },
+        "version": "0.1.0"
+      }
+    ]
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:+pzy5JRg/t1mxX7uzOqpzzBZMcXTruEsDDWFUtqvPck",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA2sss2yO6PDdKGjrObpLI3umC0n9CXoFBCDB9tuaDIEqcvm\nVdrm/AXA4TvBeSFJb2rhmMAexgpC4304Id1wmkBQ==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}
