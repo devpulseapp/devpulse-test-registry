@@ -1,0 +1,183 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-addon",
+    "version": 2,
+    "id": "placeholder.sample-theme",
+    "repository": "https://github.com/devpulseapp/devpulse-test-theme-sample",
+    "section": "themes",
+    "versions": [
+      {
+        "file": {
+          "name": "placeholder.sample-theme-0.2.0.devpulse-theme",
+          "sha256": "4a182538193725f87e413a242506d90f01ade345156e93171edc652bb672cc61",
+          "size": 22832,
+          "url": "https://github.com/devpulseapp/devpulse-test-theme-sample/releases/download/2026.10.16.2/placeholder.sample-theme-0.2.0.devpulse-theme"
+        },
+        "manifest": {
+          "apiFeatures": {
+            "optional": [],
+            "required": [
+              "contributions.theme-v1",
+              "themes.document-v1"
+            ]
+          },
+          "apiVersion": 2,
+          "authors": [
+            {
+              "name": "Marketplace test placeholder"
+            }
+          ],
+          "changelog": "CHANGELOG.md",
+          "contributes": [
+            {
+              "description": "A dark teal theme.",
+              "displayName": "Sample Teal",
+              "file": "themes/sample-teal.json",
+              "id": "sample-teal",
+              "permissionIds": [],
+              "requirementIds": [],
+              "settingIds": [],
+              "type": "theme"
+            },
+            {
+              "description": "A light sand theme.",
+              "displayName": "Sample Sand",
+              "file": "themes/sample-sand.json",
+              "id": "sample-sand",
+              "permissionIds": [],
+              "requirementIds": [],
+              "settingIds": [],
+              "type": "theme"
+            }
+          ],
+          "defaultLocale": "en",
+          "description": "Two colour themes for testing the DevPulse Marketplace: Sample Teal (dark) and Sample Sand (light).",
+          "displayName": "Placeholder Sample Theme",
+          "engines": {
+            "devpulse": ">=0.0.1 <1.0.0"
+          },
+          "id": "placeholder.sample-theme",
+          "license": "Apache-2.0",
+          "licenseFile": "LICENSE",
+          "links": {
+            "repository": "https://github.com/devpulseapp/devpulse-test-theme-sample"
+          },
+          "locales": [],
+          "manifestVersion": 2,
+          "permissions": [],
+          "publisher": {
+            "displayName": "Marketplace test placeholder",
+            "id": "placeholder"
+          },
+          "readme": "README.md",
+          "requirements": [],
+          "runtime": {
+            "id": "sample-theme",
+            "tier": "declarative"
+          },
+          "settings": [],
+          "target": {
+            "architecture": "any",
+            "platform": "any"
+          },
+          "version": "0.2.0"
+        },
+        "publishedAt": "2026-10-16T04:56:28Z",
+        "status": {
+          "state": "active"
+        },
+        "version": "0.2.0"
+      },
+      {
+        "file": {
+          "name": "placeholder.sample-theme-0.1.0.devpulse-theme",
+          "sha256": "f2dcbef4a462313d425bdd614c96534733106a3e11758f268be61ecbfcf34489",
+          "size": 22754,
+          "url": "https://github.com/devpulseapp/devpulse-test-theme-sample/releases/download/2026.10.16/placeholder.sample-theme-0.1.0.devpulse-theme"
+        },
+        "manifest": {
+          "apiFeatures": {
+            "optional": [],
+            "required": [
+              "contributions.theme-v1",
+              "themes.document-v1"
+            ]
+          },
+          "apiVersion": 2,
+          "authors": [
+            {
+              "name": "Marketplace test placeholder"
+            }
+          ],
+          "changelog": "CHANGELOG.md",
+          "contributes": [
+            {
+              "description": "A dark teal theme.",
+              "displayName": "Sample Teal",
+              "file": "themes/sample-teal.json",
+              "id": "sample-teal",
+              "permissionIds": [],
+              "requirementIds": [],
+              "settingIds": [],
+              "type": "theme"
+            },
+            {
+              "description": "A light sand theme.",
+              "displayName": "Sample Sand",
+              "file": "themes/sample-sand.json",
+              "id": "sample-sand",
+              "permissionIds": [],
+              "requirementIds": [],
+              "settingIds": [],
+              "type": "theme"
+            }
+          ],
+          "defaultLocale": "en",
+          "description": "Two colour themes for testing the DevPulse Marketplace: Sample Teal (dark) and Sample Sand (light).",
+          "displayName": "Placeholder Sample Theme",
+          "engines": {
+            "devpulse": ">=0.0.1 <1.0.0"
+          },
+          "id": "placeholder.sample-theme",
+          "license": "Apache-2.0",
+          "licenseFile": "LICENSE",
+          "links": {
+            "repository": "https://github.com/devpulseapp/devpulse-test-theme-sample"
+          },
+          "locales": [],
+          "manifestVersion": 2,
+          "permissions": [],
+          "publisher": {
+            "displayName": "Marketplace test placeholder",
+            "id": "placeholder"
+          },
+          "readme": "README.md",
+          "requirements": [],
+          "runtime": {
+            "id": "sample-theme",
+            "tier": "declarative"
+          },
+          "settings": [],
+          "target": {
+            "architecture": "any",
+            "platform": "any"
+          },
+          "version": "0.1.0"
+        },
+        "publishedAt": "2026-10-16T02:35:10Z",
+        "status": {
+          "state": "active"
+        },
+        "version": "0.1.0"
+      }
+    ]
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:Z8eUNG+ZUsQaUk94/icYEjpLhiBXNtr7ZXJzhhFdZws",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgTcBTZe/YweHOvczsKNvprMIuLc\nDeyiPU8Mo/9pg9HNoAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAgv8kOhNDvKglfLtJx5HO2dheBAS6tat0HnOoFBL1Pnd5Q+\n06jVH318mAAojWq6Qg3Zitxzs3PNvU/cnWa0zLCg==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}
