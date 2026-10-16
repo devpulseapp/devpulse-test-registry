@@ -1,0 +1,29 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-listing",
+    "version": 4,
+    "addons": [
+      {
+        "category": "tool",
+        "description": "A placeholder App for testing DevPulse Apps: a sidebar panel, a workspace tab, a command and a background task.",
+        "devpulse": ">=0.0.1 <1.0.0",
+        "displayName": "Placeholder Sample App",
+        "id": "placeholder.sample-app",
+        "latestVersion": "0.3.0",
+        "publisher": {
+          "displayName": "Marketplace test placeholder",
+          "id": "placeholder"
+        }
+      }
+    ],
+    "section": "apps"
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:GeHOk5u7CE9cXksqLrsDKaV0On0ULwV4iG2AsQeZyZI",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgVeoLS4xWhH3KcEsZaA4inM7Xh+\nTyvR7XUZjeFg/Jh4sAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA9BEVWmV3tCeHW+W6GQRhrT680wvhx6C8catyVM6/AqBBr2\n0W6hunAiPGu+SSxiwYjdlOVC6b9ifkd+NEg/ruDA==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}

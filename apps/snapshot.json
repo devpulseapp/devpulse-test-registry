@@ -3,25 +3,25 @@
     "registryId": "devpulse-test",
     "schemaVersion": 1,
     "type": "devpulse-registry-snapshot",
-    "version": 3,
+    "version": 4,
     "addons": {
       "placeholder.sample-app": {
-        "sha256": "4f7b042c88319266d1c57168055831dfc288b74ebf4cf8fd5a913d9c9725a28d",
-        "size": 6193,
-        "version": 2
+        "sha256": "803ba8f7aaa00e3e7c55f38843900fc11b3a60b94dfbb4fb245674306060aa2f",
+        "size": 9446,
+        "version": 3
       }
     },
     "listing": {
-      "sha256": "b11606ab238d8d878e446b5f477f6f99980fbe6d105f419f884c82c1d834c1ac",
+      "sha256": "3845ae24bb7ecec8d84a772dd28df1d134b72d4562215c773113e000d4046c12",
       "size": 1094,
-      "version": 3
+      "version": 4
     },
     "section": "apps"
   },
   "signatures": [
     {
       "keyId": "SHA256:GeHOk5u7CE9cXksqLrsDKaV0On0ULwV4iG2AsQeZyZI",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgVeoLS4xWhH3KcEsZaA4inM7Xh+\nTyvR7XUZjeFg/Jh4sAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAMJqA1LsVSUijmyEvvRSOEb1yoqVyJgOjQu/Vg8ErWOuQcN\n6BC5IL4/Aj0KA+4M1FARi/Hl9rYdC7fieEwaG1Aw==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgVeoLS4xWhH3KcEsZaA4inM7Xh+\nTyvR7XUZjeFg/Jh4sAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA2KrGS9Cb+LFVWbWdfTYrf/UlGtUj+gD5n3bmuZ6DfQ1Yw6\n38abUK/pJjK6Re8D6ySOAcx6tGIbU/UQYvjj67Aw==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }
