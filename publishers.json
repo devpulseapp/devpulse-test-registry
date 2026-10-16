@@ -3,7 +3,7 @@
     "registryId": "devpulse-test",
     "schemaVersion": 1,
     "type": "devpulse-registry-publishers",
-    "version": 2,
+    "version": 3,
     "publishers": [
       {
         "displayName": "Marketplace test placeholder",
@@ -12,7 +12,8 @@
         "sections": [
           "widgets",
           "analyzers",
-          "apps"
+          "apps",
+          "themes"
         ],
         "status": "active"
       }
@@ -21,7 +22,7 @@
   "signatures": [
     {
       "keyId": "SHA256:TypnUA3L2DdHmyw1YCUS2KZBS4cdC1OdOhmiZ1VeMkM",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg3FjhjoXgLBmeBFYh+/9xNG2Vdj\ngO2TqeETzsCOXrnfcAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA8uOC89w2BGzETybK7V7ov6uS1yju2XgQ6LE+fUBRzAPd3p\nR1LuzwCyLQeB/eXFyw9wtZMkgsB7EG+45s3uL3AQ==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg3FjhjoXgLBmeBFYh+/9xNG2Vdj\ngO2TqeETzsCOXrnfcAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAXe0wv2KujQhSVHeWnYQaZK7ir55DHlfFGOCliTY/qXej9X\nMOT68gIdAEFiugs4MHHXiQ3rrHKAm+yui56RbyBQ==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }

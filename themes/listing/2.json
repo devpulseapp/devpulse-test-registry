@@ -1,0 +1,28 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-listing",
+    "version": 2,
+    "addons": [
+      {
+        "description": "Two colour themes for testing the DevPulse Marketplace: Sample Teal (dark) and Sample Sand (light).",
+        "devpulse": ">=0.0.1 <1.0.0",
+        "displayName": "Placeholder Sample Theme",
+        "id": "placeholder.sample-theme",
+        "latestVersion": "0.1.0",
+        "publisher": {
+          "displayName": "Marketplace test placeholder",
+          "id": "placeholder"
+        }
+      }
+    ],
+    "section": "themes"
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:Z8eUNG+ZUsQaUk94/icYEjpLhiBXNtr7ZXJzhhFdZws",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgTcBTZe/YweHOvczsKNvprMIuLc\nDeyiPU8Mo/9pg9HNoAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA3Zv9sE16voqXeQvLPXrUN88pa90KMpRMmm+gfyQHBPcYJb\npFcD7d32eeghA64z2Q8WndLqrMlgS+6JjCDmdUAA==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}
