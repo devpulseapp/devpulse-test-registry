@@ -565,7 +565,7 @@
           "name": "Anthropic",
           "sources": [
             {
-              "checkedOn": "2026-10-24",
+              "checkedOn": "2026-10-26",
               "url": "https://platform.claude.com/docs/en/about-claude/pricing"
             }
           ]
