@@ -1,0 +1,176 @@
+{
+  "signed": {
+    "registryId": "devpulse-test",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-addon",
+    "version": 1,
+    "id": "placeholder.parts-sample",
+    "repository": "https://github.com/devpulseapp/devpulse-test-app-sample",
+    "section": "apps",
+    "versions": [
+      {
+        "file": {
+          "name": "placeholder.parts-sample-0.1.0.devpulse-app",
+          "sha256": "03b0c7fb3454d59f2ff799d1dd09caa4a8a52f08eb9c2d422c533b83d7c77cab",
+          "size": 481265,
+          "url": "https://github.com/devpulseapp/devpulse-test-app-sample/releases/download/2026.10.28.2/placeholder.parts-sample-0.1.0.devpulse-app"
+        },
+        "manifest": {
+          "apiFeatures": {
+            "optional": [],
+            "required": [
+              "contributions.integration-v1",
+              "runtime.trusted-node-v1",
+              "apps.permissions-v1",
+              "packages.optional-parts-v1",
+              "packages.licenses-v1"
+            ]
+          },
+          "apiVersion": 2,
+          "authors": [
+            {
+              "name": "Marketplace test placeholder"
+            }
+          ],
+          "category": "tool",
+          "changelog": "CHANGELOG.md",
+          "contributes": [
+            {
+              "description": "Greets in the languages installed.",
+              "displayName": "Parts sample",
+              "id": "parts-sample",
+              "permissionIds": [
+                "panel"
+              ],
+              "requirementIds": [],
+              "settingIds": [],
+              "sidebar": {
+                "icon": "layer-group",
+                "page": "views/panel.html",
+                "title": "Greetings"
+              },
+              "type": "integration"
+            }
+          ],
+          "defaultLocale": "en",
+          "description": "A placeholder App for testing optional parts: greetings in three languages, and confetti.",
+          "displayName": "Placeholder Parts Sample",
+          "engines": {
+            "devpulse": ">=0.0.1 <1.0.0"
+          },
+          "id": "placeholder.parts-sample",
+          "license": "Apache-2.0",
+          "licenseFile": "LICENSE",
+          "licenses": [
+            {
+              "file": "licenses/devpulse-addon-sdk-v2-0.50.0.txt",
+              "license": "Apache-2.0",
+              "name": "devpulse-addon-sdk-v2",
+              "version": "0.50.0"
+            }
+          ],
+          "locales": [],
+          "manifestVersion": 2,
+          "optionalParts": {
+            "groups": [
+              {
+                "displayName": "Greetings",
+                "id": "greetings",
+                "minimum": 1
+              },
+              {
+                "displayName": "Extras",
+                "id": "extras"
+              }
+            ],
+            "parts": [
+              {
+                "displayName": "English",
+                "file": {
+                  "name": "placeholder.parts-sample-0.1.0.greetings-en.devpulse-part",
+                  "sha256": "3e018b4fb6db537258af806138bf95df17b388572b2e8385af62c40f543a4463",
+                  "size": 434
+                },
+                "id": "greetings/en"
+              },
+              {
+                "displayName": "Հայերեն",
+                "file": {
+                  "name": "placeholder.parts-sample-0.1.0.greetings-hy.devpulse-part",
+                  "sha256": "b511f89e6a08b1b1615fd63bab964a37ae8e7acaf54c8d4683af2dacca5ade88",
+                  "size": 437
+                },
+                "id": "greetings/hy"
+              },
+              {
+                "displayName": "日本語",
+                "file": {
+                  "name": "placeholder.parts-sample-0.1.0.greetings-ja.devpulse-part",
+                  "sha256": "f2fc0bd8844a790b9ee31f8481e53976178d3278f0f3ded1dd6b91020317fb6f",
+                  "size": 444
+                },
+                "id": "greetings/ja"
+              },
+              {
+                "displayName": "Confetti",
+                "file": {
+                  "name": "placeholder.parts-sample-0.1.0.extras-confetti.devpulse-part",
+                  "sha256": "c13e78b2e2a37e70d0bb8f9230ed23d2b9cc5c1a7ddc57baf63afe9ed2e6cdd0",
+                  "size": 1006
+                },
+                "id": "extras/confetti"
+              }
+            ]
+          },
+          "permissions": [
+            {
+              "capability": "workspace.panel.open",
+              "id": "panel",
+              "reason": "Shows the greetings.",
+              "requiredness": "required",
+              "scope": {
+                "kind": "add-on"
+              }
+            }
+          ],
+          "publisher": {
+            "displayName": "Marketplace test placeholder",
+            "id": "placeholder"
+          },
+          "readme": "README.md",
+          "requirements": [],
+          "runtime": {
+            "artifact": "node-esm",
+            "entrypoint": "app/main.js",
+            "files": [
+              "app/main.js",
+              "views/chunks/chunk-NVUJRH75.js",
+              "views/panel.css",
+              "views/panel.html",
+              "views/panel.js"
+            ],
+            "id": "parts-sample",
+            "tier": "trusted-node"
+          },
+          "settings": [],
+          "target": {
+            "architecture": "any",
+            "platform": "any"
+          },
+          "version": "0.1.0"
+        },
+        "publishedAt": "2026-10-28T13:21:20Z",
+        "status": {
+          "state": "active"
+        },
+        "version": "0.1.0"
+      }
+    ]
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:GeHOk5u7CE9cXksqLrsDKaV0On0ULwV4iG2AsQeZyZI",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgVeoLS4xWhH3KcEsZaA4inM7Xh+\nTyvR7XUZjeFg/Jh4sAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABACUj56mMoWn2R49trqhc6EXNRpsMnm/xTCHrBQ9ms7aYLOY\nq+bxw4ktkLmxUxXga9J5cjrZVFxAdYUSezzbP8DQ==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}
