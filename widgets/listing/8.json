@@ -1,6 +1,6 @@
 {
   "signed": {
-    "registryId": "devpulse-test",
+    "registryId": "devpulse-test-2",
     "schemaVersion": 1,
     "type": "devpulse-registry-listing",
     "version": 8,
@@ -23,7 +23,7 @@
         "devpulse": ">=0.0.1 <1.0.0",
         "displayName": "Placeholder Counter",
         "id": "placeholder.counter",
-        "latestVersion": "0.6.0",
+        "latestVersion": "0.5.0",
         "publisher": {
           "displayName": "Marketplace test placeholder",
           "id": "placeholder"
@@ -40,18 +40,6 @@
           "displayName": "Marketplace test placeholder",
           "id": "placeholder"
         }
-      },
-      {
-        "category": "tool",
-        "description": "A placeholder Widget for testing an update: install the local 0.1.0 file, and the Marketplace offers 0.2.0.",
-        "devpulse": ">=0.0.1 <1.0.0",
-        "displayName": "Placeholder Update Check",
-        "id": "placeholder.update-check",
-        "latestVersion": "0.2.0",
-        "publisher": {
-          "displayName": "Marketplace test placeholder",
-          "id": "placeholder"
-        }
       }
     ],
     "section": "widgets"
@@ -59,7 +47,7 @@
   "signatures": [
     {
       "keyId": "SHA256:+pzy5JRg/t1mxX7uzOqpzzBZMcXTruEsDDWFUtqvPck",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAFJ06uOmn9mC/vtoNad9WZ3pbHZe+eH9dDFo13062XTwwTE\nE2ITFbguHUyFU46CAcHvdQcuven9rn6pHCu8ZGBw==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAVNP3CMFLuISkPQVHweIvS/pfE9R4/zKK/WFXc1wZpwP1gp\nguKPRTiOqWwJLYDByg9XlrP0F9tBc6xl6Fqrz+BQ==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }

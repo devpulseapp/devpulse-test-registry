@@ -1,6 +1,6 @@
 {
   "signed": {
-    "registryId": "devpulse-test",
+    "registryId": "devpulse-test-2",
     "schemaVersion": 1,
     "type": "devpulse-registry-addon",
     "version": 1,
@@ -87,7 +87,7 @@
           },
           "version": "0.1.0"
         },
-        "publishedAt": "2026-10-15T05:37:22Z",
+        "publishedAt": "2026-10-28T13:38:27Z",
         "status": {
           "state": "active"
         },
@@ -98,7 +98,7 @@
   "signatures": [
     {
       "keyId": "SHA256:+pzy5JRg/t1mxX7uzOqpzzBZMcXTruEsDDWFUtqvPck",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA2sss2yO6PDdKGjrObpLI3umC0n9CXoFBCDB9tuaDIEqcvm\nVdrm/AXA4TvBeSFJb2rhmMAexgpC4304Id1wmkBQ==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAUnK6BHSX1O+HBhFmS9YfyOKjLGHrystYTF+/+wbS6Yzx6w\nA2AAyDBKynx6ZeVQuhrCuqn5cNifNmG67+U6YhBQ==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }

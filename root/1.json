@@ -1,6 +1,6 @@
 {
   "signed": {
-    "registryId": "devpulse-test",
+    "registryId": "devpulse-test-2",
     "schemaVersion": 1,
     "type": "devpulse-registry-root",
     "version": 1,
@@ -27,6 +27,10 @@
       {
         "keyId": "SHA256:UtO6B/VwxFuFXTvLmUOq89X+kFZjLGmW0LDbNdJpQtI",
         "publicKey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAID0lVfWn5AL7NGVnmYvMuPeTqKlDUJdAKeSqpKEqzGil"
+      },
+      {
+        "keyId": "SHA256:Z8eUNG+ZUsQaUk94/icYEjpLhiBXNtr7ZXJzhhFdZws",
+        "publicKey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE3AU2Xv2MHhzr3M7Cjb6azCLi3A3soj1PDKP/aYPRza"
       }
     ],
     "roles": {
@@ -59,13 +63,19 @@
           "SHA256:GeHOk5u7CE9cXksqLrsDKaV0On0ULwV4iG2AsQeZyZI"
         ],
         "threshold": 1
+      },
+      "themes": {
+        "keyIds": [
+          "SHA256:Z8eUNG+ZUsQaUk94/icYEjpLhiBXNtr7ZXJzhhFdZws"
+        ],
+        "threshold": 1
       }
     }
   },
   "signatures": [
     {
       "keyId": "SHA256:AhEsqf0uxYyrueeVpeQHkyRa98T266qCo5knx6DQf3g",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgSFmxzMrf7gnT5MV/xCjahhC7Jj\nhOuT//KQjm7VbE4ywAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAR7fQjMXKnCSFZsHaSlMfQsSTwOwcSxwRM8OG5eo0sUjyL8\nl0ku7Ea0mZocbTTV3++iEt6TDvI4jJqRkJ5WTgBw==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgSFmxzMrf7gnT5MV/xCjahhC7Jj\nhOuT//KQjm7VbE4ywAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAfna3EfEJPOaXCXEgjgR/xBbQAqvulntsR4b0KEymFCEgZm\n7tdRwAGbEAr97TPp9FifePhJE+7t88jgG4dgI7Dg==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }

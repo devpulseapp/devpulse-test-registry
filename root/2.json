@@ -1,6 +1,6 @@
 {
   "signed": {
-    "registryId": "devpulse-test",
+    "registryId": "devpulse-test-2",
     "schemaVersion": 1,
     "type": "devpulse-registry-root",
     "version": 2,
@@ -23,6 +23,10 @@
       {
         "keyId": "SHA256:TypnUA3L2DdHmyw1YCUS2KZBS4cdC1OdOhmiZ1VeMkM",
         "publicKey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINxY4Y6F4CwZngRWIfv/cTRtlXY4Dtk6nhE87Ajl6533"
+      },
+      {
+        "keyId": "SHA256:U1/5ZnL0QU2i/4O+gCFoskv6hLcKISyZEj7BNjeerBY",
+        "publicKey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMCFzoerh+m/bR27uQnLMCqyUhwC1K7ssnw4JzXITNSD"
       },
       {
         "keyId": "SHA256:UtO6B/VwxFuFXTvLmUOq89X+kFZjLGmW0LDbNdJpQtI",
@@ -58,15 +62,21 @@
         ],
         "threshold": 1
       },
+      "themes": {
+        "keyIds": [
+          "SHA256:Z8eUNG+ZUsQaUk94/icYEjpLhiBXNtr7ZXJzhhFdZws"
+        ],
+        "threshold": 1
+      },
       "widgets": {
         "keyIds": [
           "SHA256:+pzy5JRg/t1mxX7uzOqpzzBZMcXTruEsDDWFUtqvPck"
         ],
         "threshold": 1
       },
-      "themes": {
+      "provider-facts": {
         "keyIds": [
-          "SHA256:Z8eUNG+ZUsQaUk94/icYEjpLhiBXNtr7ZXJzhhFdZws"
+          "SHA256:U1/5ZnL0QU2i/4O+gCFoskv6hLcKISyZEj7BNjeerBY"
         ],
         "threshold": 1
       }
@@ -75,7 +85,7 @@
   "signatures": [
     {
       "keyId": "SHA256:AhEsqf0uxYyrueeVpeQHkyRa98T266qCo5knx6DQf3g",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgSFmxzMrf7gnT5MV/xCjahhC7Jj\nhOuT//KQjm7VbE4ywAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA4cZgeU49WTAWW1Uk4ITog1QvzCQfPXe9VMSOWuixnXG0w2\nAAqJdZi+S7meyz3/MlRfNrm1edX6xZBhhTY5/0CQ==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgSFmxzMrf7gnT5MV/xCjahhC7Jj\nhOuT//KQjm7VbE4ywAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA+rHsPp78QgC049UlWpZPpADYpNj+3ONLW2UGGy+142dlFU\neIV2dOBYmb+DF0HB60m489IZG108++8lKay5w4DA==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }

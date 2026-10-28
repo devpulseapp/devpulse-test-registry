@@ -1,6 +1,6 @@
 {
   "signed": {
-    "registryId": "devpulse-test",
+    "registryId": "devpulse-test-2",
     "schemaVersion": 1,
     "type": "devpulse-registry-addon",
     "version": 5,
@@ -83,7 +83,7 @@
           },
           "version": "0.5.0"
         },
-        "publishedAt": "2026-10-15T03:17:11Z",
+        "publishedAt": "2026-10-28T13:38:26Z",
         "status": {
           "state": "active"
         },
@@ -164,7 +164,7 @@
           },
           "version": "0.4.0"
         },
-        "publishedAt": "2026-10-14T23:35:40Z",
+        "publishedAt": "2026-10-28T13:38:25Z",
         "status": {
           "state": "active"
         },
@@ -245,7 +245,7 @@
           },
           "version": "0.3.0"
         },
-        "publishedAt": "2026-10-14T21:36:49Z",
+        "publishedAt": "2026-10-28T13:38:25Z",
         "status": {
           "state": "active"
         },
@@ -326,7 +326,7 @@
           },
           "version": "0.2.0"
         },
-        "publishedAt": "2026-10-14T21:21:30Z",
+        "publishedAt": "2026-10-28T13:38:24Z",
         "status": {
           "state": "active"
         },
@@ -407,7 +407,7 @@
           },
           "version": "0.1.0"
         },
-        "publishedAt": "2026-10-14T19:52:16Z",
+        "publishedAt": "2026-10-28T13:38:23Z",
         "status": {
           "state": "active"
         },
@@ -418,7 +418,7 @@
   "signatures": [
     {
       "keyId": "SHA256:+pzy5JRg/t1mxX7uzOqpzzBZMcXTruEsDDWFUtqvPck",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAhw20lzChiuiT/ZcHKdcCWI5hMOXciP0NmHZkHwuhwgPxYV\nTK1YZd/RiHEs5++qLM8wXwydOhzEmLiWpMygcKDQ==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgQGIz/QF9Y0zpzncJ6KhOi12408\n937i13ImQZlyqCQZYAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA75kwUOmN+GdFSAeVFrq6LehUxSdH0iFzgDsdZSQxCcUcEx\nHq9xYJVbWOotCmw6g1IDqA6b7x/5ZKujR1r70DCQ==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }

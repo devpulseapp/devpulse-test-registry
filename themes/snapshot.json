@@ -1,19 +1,19 @@
 {
   "signed": {
-    "registryId": "devpulse-test",
+    "registryId": "devpulse-test-2",
     "schemaVersion": 1,
     "type": "devpulse-registry-snapshot",
     "version": 4,
     "addons": {
       "placeholder.sample-theme": {
-        "sha256": "c9a8286865f710350d757c0e06d597e96f288acbe6810024d8d40a4e2ee620f4",
-        "size": 8836,
+        "sha256": "a15fc2c141cd395869877246ce9b5dac78b4f5206f64e72547bfb61d9af7f817",
+        "size": 8838,
         "version": 3
       }
     },
     "listing": {
-      "sha256": "8e0270d8937151aab3fceb5ddcddb661ba34afaec3f15ef3a575a79b01d58c11",
-      "size": 1060,
+      "sha256": "73020c7d694401b336cc729c2cec51fac75d22b9ad281bde0bf035310fb8c8a0",
+      "size": 1062,
       "version": 4
     },
     "section": "themes"
@@ -21,7 +21,7 @@
   "signatures": [
     {
       "keyId": "SHA256:Z8eUNG+ZUsQaUk94/icYEjpLhiBXNtr7ZXJzhhFdZws",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgTcBTZe/YweHOvczsKNvprMIuLc\nDeyiPU8Mo/9pg9HNoAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAxtCDpsZ1v3wSMgcvw3YRTAT1S78b5kgsZQ6It5VAuhdK15\nxBqxmjshLirN4lnXAMZHmZJwaN8pgEHqam4wtnAw==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgTcBTZe/YweHOvczsKNvprMIuLc\nDeyiPU8Mo/9pg9HNoAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABACkpm64WYv8/ayAkLC5A/dHmOnO2HfgxS9FgZLFZSBKn7rF\nCoRnqwYvmi+CHh2uYsoHnZF57Jzg/kzlYRN4CXBQ==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }
