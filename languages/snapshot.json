@@ -1,0 +1,37 @@
+{
+  "signed": {
+    "registryId": "devpulse-test-2",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-snapshot",
+    "version": 2,
+    "addons": {
+      "otanim.devpulse-language-en": {
+        "sha256": "a6c78e432307439f9b55a071dc2ac1746886fe8ceeed7060085896cae3a1c71e",
+        "size": 5128,
+        "version": 1
+      },
+      "otanim.devpulse-language-hy": {
+        "sha256": "f1524fd1e9921af82eb709be3eb87110d002bc591ac4993f03903ead5840b01e",
+        "size": 5156,
+        "version": 1
+      },
+      "otanim.devpulse-language-ja": {
+        "sha256": "6fe4196f69bd153fb1db8cd54e358b951f65bdca9afa36077558054d57671692",
+        "size": 5145,
+        "version": 1
+      }
+    },
+    "listing": {
+      "sha256": "935296aa77a175dc39ce4d276fcd3ca9c7683449739023641cfa71c5d7bd62ca",
+      "size": 1726,
+      "version": 2
+    },
+    "section": "languages"
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:nY8rWTG/QmZavioxqTsjsqbaOYsWrAS8DwO1SwUruA8",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgr5QU/AUXS+1Yvdj6HeU9Mi7Tw+\ncsF2QhYQD3wYTJfZMAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAH8rMlmMzg2/cAfJmNd5S6Xx4oYt+cy/v2KjwKpI7akjTL3\n7nVCuKd2gtO9MaqXd1pkAexbxL+k51FswxPbaVDA==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}

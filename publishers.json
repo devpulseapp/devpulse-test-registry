@@ -3,8 +3,17 @@
     "registryId": "devpulse-test-2",
     "schemaVersion": 1,
     "type": "devpulse-registry-publishers",
-    "version": 2,
+    "version": 3,
     "publishers": [
+      {
+        "displayName": "Arman Yeghiazaryan",
+        "id": "otanim",
+        "keys": [],
+        "sections": [
+          "languages"
+        ],
+        "status": "active"
+      },
       {
         "displayName": "Marketplace test placeholder",
         "id": "placeholder",
@@ -22,7 +31,7 @@
   "signatures": [
     {
       "keyId": "SHA256:TypnUA3L2DdHmyw1YCUS2KZBS4cdC1OdOhmiZ1VeMkM",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg3FjhjoXgLBmeBFYh+/9xNG2Vdj\ngO2TqeETzsCOXrnfcAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAS7ONA/JY26Z6n8n/4OTx8ZPF/5pnSPEjVFWUCMR/jqFsh4\n/NDhYH3ER9dr3KhtAKd3lVpLWiYsR6wnxGTEkXBA==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg3FjhjoXgLBmeBFYh+/9xNG2Vdj\ngO2TqeETzsCOXrnfcAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAsJn3gSVOOLqwKyfSb7ZjNW8+DXYbbuS54VuReNWkaktj9G\nQHozBpC8I6Ia1jU0Yp3zMlAZe3KszxMkYMRHyhAw==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }

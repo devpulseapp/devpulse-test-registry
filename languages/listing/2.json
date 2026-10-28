@@ -1,0 +1,50 @@
+{
+  "signed": {
+    "registryId": "devpulse-test-2",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-listing",
+    "version": 2,
+    "addons": [
+      {
+        "description": "Every text of DevPulse 0.0.1 in English.",
+        "devpulse": ">=0.0.1 <0.0.2",
+        "displayName": "DevPulse in English",
+        "id": "otanim.devpulse-language-en",
+        "latestVersion": "0.1.0",
+        "publisher": {
+          "displayName": "Arman Yeghiazaryan",
+          "id": "otanim"
+        }
+      },
+      {
+        "description": "Every text of DevPulse 0.0.1 in Armenian.",
+        "devpulse": ">=0.0.1 <0.0.2",
+        "displayName": "DevPulse in Armenian (Հայերեն)",
+        "id": "otanim.devpulse-language-hy",
+        "latestVersion": "0.1.0",
+        "publisher": {
+          "displayName": "Arman Yeghiazaryan",
+          "id": "otanim"
+        }
+      },
+      {
+        "description": "Every text of DevPulse 0.0.1 in Japanese.",
+        "devpulse": ">=0.0.1 <0.0.2",
+        "displayName": "DevPulse in Japanese (日本語)",
+        "id": "otanim.devpulse-language-ja",
+        "latestVersion": "0.1.0",
+        "publisher": {
+          "displayName": "Arman Yeghiazaryan",
+          "id": "otanim"
+        }
+      }
+    ],
+    "section": "languages"
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:nY8rWTG/QmZavioxqTsjsqbaOYsWrAS8DwO1SwUruA8",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgr5QU/AUXS+1Yvdj6HeU9Mi7Tw+\ncsF2QhYQD3wYTJfZMAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAZDv9qooTAyqjDiN0NzQZ+CAa2Kwuo3g/U6u4VNCpT7TGPK\nD9dBfQb4VgDAftVk791r3l6zrrC3ysutAtl9aRDg==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}

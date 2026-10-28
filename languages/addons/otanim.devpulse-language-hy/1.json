@@ -1,0 +1,139 @@
+{
+  "signed": {
+    "registryId": "devpulse-test-2",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-addon",
+    "version": 1,
+    "id": "otanim.devpulse-language-hy",
+    "repository": "https://github.com/devpulseapp/devpulse-test-languages",
+    "section": "languages",
+    "versions": [
+      {
+        "file": {
+          "name": "otanim.devpulse-language-hy-0.1.0.devpulse-language",
+          "sha256": "9f299dca74f3e1f43e43bc3d4a9ed1bbf29594f1b1e450f4a18a4b218747be0c",
+          "size": 1119124,
+          "url": "https://github.com/devpulseapp/devpulse-test-languages/releases/download/2026.10.28/otanim.devpulse-language-hy-0.1.0.devpulse-language"
+        },
+        "manifest": {
+          "apiFeatures": {
+            "optional": [],
+            "required": [
+              "contributions.language-v1",
+              "languages.texts-v1"
+            ]
+          },
+          "apiVersion": 2,
+          "authors": [
+            {
+              "name": "Arman Yeghiazaryan"
+            }
+          ],
+          "changelog": "CHANGELOG.md",
+          "contributes": [
+            {
+              "description": "DevPulse's interface in Armenian.",
+              "devpulse": "0.0.1",
+              "displayName": "Հայերեն",
+              "id": "language",
+              "locale": "hy",
+              "permissionIds": [],
+              "requirementIds": [],
+              "settingIds": [],
+              "texts": [
+                "texts/addon-permissions.json",
+                "texts/ai-agents.json",
+                "texts/analysis.json",
+                "texts/authoring.json",
+                "texts/automation.json",
+                "texts/bluetooth-adapters.json",
+                "texts/checks.json",
+                "texts/common.json",
+                "texts/communications.json",
+                "texts/controllers.json",
+                "texts/dc-power-supply.json",
+                "texts/devices.json",
+                "texts/event-markers.json",
+                "texts/feature-shell.json",
+                "texts/flipper.json",
+                "texts/input-devices.json",
+                "texts/keep-screen-awake.json",
+                "texts/kicad-viewer.json",
+                "texts/localization.json",
+                "texts/native-shell.json",
+                "texts/notification-center.json",
+                "texts/openbci.json",
+                "texts/projects.json",
+                "texts/radio-tuner.json",
+                "texts/repository.json",
+                "texts/schematic-authoring.json",
+                "texts/sdr-device-selection.json",
+                "texts/sdr.json",
+                "texts/settings-addons.json",
+                "texts/settings-background-work.json",
+                "texts/settings-checks.json",
+                "texts/settings-extensions.json",
+                "texts/settings-file-updates.json",
+                "texts/settings-general.json",
+                "texts/settings-interface.json",
+                "texts/settings-notifications.json",
+                "texts/settings-power.json",
+                "texts/settings-shell.json",
+                "texts/settings-sidebars.json",
+                "texts/settings-status-bar.json",
+                "texts/settings-tasks.json",
+                "texts/settings-terminal.json",
+                "texts/settings-tools.json",
+                "texts/settings-workspace-tabs.json",
+                "texts/shell.json",
+                "texts/task-manager.json",
+                "texts/terminal-auto-sleep.json",
+                "texts/terminal.json"
+              ],
+              "type": "language"
+            }
+          ],
+          "defaultLocale": "en",
+          "description": "Every text of DevPulse 0.0.1 in Armenian.",
+          "displayName": "DevPulse in Armenian (Հայերեն)",
+          "engines": {
+            "devpulse": ">=0.0.1 <0.0.2"
+          },
+          "id": "otanim.devpulse-language-hy",
+          "license": "CC-BY-4.0",
+          "licenseFile": "LICENSE",
+          "locales": [],
+          "manifestVersion": 2,
+          "permissions": [],
+          "publisher": {
+            "displayName": "Arman Yeghiazaryan",
+            "id": "otanim"
+          },
+          "readme": "README.md",
+          "requirements": [],
+          "runtime": {
+            "id": "devpulse-language-hy",
+            "tier": "declarative"
+          },
+          "settings": [],
+          "target": {
+            "architecture": "any",
+            "platform": "any"
+          },
+          "version": "0.1.0"
+        },
+        "publishedAt": "2026-10-28T15:41:29Z",
+        "status": {
+          "state": "active"
+        },
+        "version": "0.1.0"
+      }
+    ]
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:nY8rWTG/QmZavioxqTsjsqbaOYsWrAS8DwO1SwUruA8",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgr5QU/AUXS+1Yvdj6HeU9Mi7Tw+\ncsF2QhYQD3wYTJfZMAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAVvba+dve0B0k/WstISK1sz8yj3JpWAOLqskfatQ2NsFzlv\nWHi+66oCzfOrfyMr3/kLYpu6uRyWDDF08UYQ7+DA==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}
