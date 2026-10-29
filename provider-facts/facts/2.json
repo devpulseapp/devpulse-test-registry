@@ -1,0 +1,1763 @@
+{
+  "signed": {
+    "registryId": "devpulse-test-2",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-facts",
+    "version": 2,
+    "facts": {
+      "agents": [
+        {
+          "agent": "aider",
+          "shortNames": [
+            {
+              "model": "claude-sonnet-4-5",
+              "name": "sonnet"
+            },
+            {
+              "model": "claude-haiku-4-5",
+              "name": "haiku"
+            },
+            {
+              "model": "claude-opus-4-6",
+              "name": "opus"
+            },
+            {
+              "model": "gpt-4-0613",
+              "name": "4"
+            },
+            {
+              "model": "gpt-4o",
+              "name": "4o"
+            },
+            {
+              "model": "gpt-4-1106-preview",
+              "name": "4-turbo"
+            },
+            {
+              "model": "gpt-3.5-turbo",
+              "name": "35turbo"
+            },
+            {
+              "model": "gpt-3.5-turbo",
+              "name": "35-turbo"
+            },
+            {
+              "model": "gpt-3.5-turbo",
+              "name": "3"
+            },
+            {
+              "model": "deepseek/deepseek-chat",
+              "name": "deepseek"
+            },
+            {
+              "model": "gemini/gemini-flash-latest",
+              "name": "flash"
+            },
+            {
+              "model": "gemini/gemini-2.5-flash-lite",
+              "name": "flash-lite"
+            },
+            {
+              "model": "openrouter/openrouter/quasar-alpha",
+              "name": "quasar"
+            },
+            {
+              "model": "deepseek/deepseek-reasoner",
+              "name": "r1"
+            },
+            {
+              "model": "gemini/gemini-2.5-pro",
+              "name": "gemini-2.5-pro"
+            },
+            {
+              "model": "gemini/gemini-3-pro-preview",
+              "name": "gemini-3-pro-preview"
+            },
+            {
+              "model": "gemini/gemini-3-pro-preview",
+              "name": "gemini"
+            },
+            {
+              "model": "gemini/gemini-2.5-pro-exp-03-25",
+              "name": "gemini-exp"
+            },
+            {
+              "model": "xai/grok-3-beta",
+              "name": "grok3"
+            },
+            {
+              "model": "openrouter/openrouter/optimus-alpha",
+              "name": "optimus"
+            }
+          ],
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://github.com/Aider-AI/aider/blob/v0.86.2/aider/models.py"
+            }
+          ],
+          "version": "0.86.2"
+        },
+        {
+          "agent": "qwen-code",
+          "modelsNotHeld": [
+            {
+              "model": "claude-haiku-5-5",
+              "reason": "Keeps earlier thinking only in an unchanged conversation; Qwen Code re-sends the history changed and asks Anthropic to drop such thinking for Opus 5.5 and Fable 5.1 only, so every second call of a turn fails."
+            },
+            {
+              "model": "claude-sonnet-5-5",
+              "reason": "Keeps earlier thinking only in an unchanged conversation; Qwen Code re-sends the history changed and asks Anthropic to drop such thinking for Opus 5.5 and Fable 5.1 only, so every second call of a turn fails."
+            }
+          ],
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "finding": "DevPulse's live check of Qwen Code 0.26.1 on each model through Anthropic's API: the second call of a turn failed on these two."
+            }
+          ],
+          "version": "0.26.1"
+        }
+      ],
+      "models": [
+        {
+          "aliases": [],
+          "contextWindowTokens": 1000000,
+          "id": "claude-fable-5",
+          "prices": [
+            {
+              "cacheRead": 1,
+              "cacheWrite": 12.5,
+              "input": 10,
+              "output": 50
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1000000,
+          "id": "claude-fable-5-1",
+          "prices": [
+            {
+              "cacheRead": 0.25,
+              "cacheWrite": 12.5,
+              "input": 10,
+              "output": 50
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [
+            "claude-haiku-4-5-20251001"
+          ],
+          "contextWindowTokens": 200000,
+          "id": "claude-haiku-4-5",
+          "prices": [
+            {
+              "cacheRead": 0.1,
+              "cacheWrite": 1.25,
+              "input": 1,
+              "output": 5
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1000000,
+          "id": "claude-haiku-5-5",
+          "prices": [
+            {
+              "cacheRead": 0.01,
+              "cacheWrite": 0.125,
+              "input": 0.1,
+              "maxPromptTokens": 100000,
+              "output": 0.5
+            },
+            {
+              "cacheRead": 0.05,
+              "cacheWrite": 0.625,
+              "input": 0.5,
+              "output": 2.5
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1000000,
+          "id": "claude-mythos-5",
+          "prices": [
+            {
+              "cacheRead": 1,
+              "cacheWrite": 12.5,
+              "input": 10,
+              "output": 50
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1000000,
+          "id": "claude-mythos-5-1",
+          "prices": [
+            {
+              "cacheRead": 0.25,
+              "cacheWrite": 12.5,
+              "input": 10,
+              "output": 50
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [
+            "claude-opus-4-5-20251101"
+          ],
+          "contextWindowTokens": 200000,
+          "id": "claude-opus-4-5",
+          "prices": [
+            {
+              "cacheRead": 0.5,
+              "cacheWrite": 6.25,
+              "input": 5,
+              "output": 25
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://platform.claude.com/docs/en/models/opus-4-5/overview"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1000000,
+          "id": "claude-opus-4-6",
+          "prices": [
+            {
+              "cacheRead": 0.5,
+              "cacheWrite": 6.25,
+              "input": 5,
+              "output": 25
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1000000,
+          "id": "claude-opus-4-7",
+          "prices": [
+            {
+              "cacheRead": 0.5,
+              "cacheWrite": 6.25,
+              "input": 5,
+              "output": 25
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1000000,
+          "id": "claude-opus-4-8",
+          "prices": [
+            {
+              "cacheRead": 0.5,
+              "cacheWrite": 6.25,
+              "input": 5,
+              "output": 25
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1000000,
+          "id": "claude-opus-5",
+          "prices": [
+            {
+              "cacheRead": 0.5,
+              "cacheWrite": 6.25,
+              "input": 5,
+              "output": 25
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1000000,
+          "id": "claude-opus-5-5",
+          "prices": [
+            {
+              "cacheRead": 0.2,
+              "cacheWrite": 5,
+              "input": 4,
+              "output": 20
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [
+            "claude-sonnet-4-5-20250929"
+          ],
+          "contextWindowTokens": 200000,
+          "id": "claude-sonnet-4-5",
+          "prices": [
+            {
+              "cacheRead": 0.3,
+              "cacheWrite": 3.75,
+              "input": 3,
+              "output": 15
+            }
+          ],
+          "provider": "anthropic",
+          "retiredOn": "2026-11-30",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1000000,
+          "id": "claude-sonnet-4-6",
+          "prices": [
+            {
+              "cacheRead": 0.3,
+              "cacheWrite": 3.75,
+              "input": 3,
+              "output": 15
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1000000,
+          "id": "claude-sonnet-5",
+          "prices": [
+            {
+              "cacheRead": 0.2,
+              "cacheWrite": 2.5,
+              "input": 2,
+              "output": 10
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1000000,
+          "id": "claude-sonnet-5-5",
+          "prices": [
+            {
+              "cacheRead": 0.1,
+              "cacheWrite": 2.5,
+              "input": 2,
+              "output": 10
+            }
+          ],
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "id": "composer-2.5",
+          "prices": [
+            {
+              "cacheRead": 0.2,
+              "input": 0.5,
+              "output": 2.5
+            }
+          ],
+          "provider": "cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/docs/models-and-pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "id": "composer-2.5-fast",
+          "prices": [
+            {
+              "cacheRead": 0.5,
+              "input": 3,
+              "output": 15
+            }
+          ],
+          "provider": "cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/docs/models-and-pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "id": "grok-4.5",
+          "prices": [
+            {
+              "cacheRead": 0.5,
+              "input": 2,
+              "output": 6
+            }
+          ],
+          "provider": "cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/docs/models-and-pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "id": "grok-4.6",
+          "prices": [
+            {
+              "cacheRead": 0.5,
+              "input": 2,
+              "output": 6
+            }
+          ],
+          "provider": "cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/docs/models-and-pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "id": "grok-4.7",
+          "prices": [
+            {
+              "cacheRead": 0.5,
+              "input": 2,
+              "output": 6
+            }
+          ],
+          "provider": "cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/docs/models-and-pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1047576,
+          "id": "gpt-4.1",
+          "prices": [
+            {
+              "cacheRead": 0.5,
+              "input": 2,
+              "output": 8
+            }
+          ],
+          "provider": "openai",
+          "retiredOn": "2027-01-14",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-4.1"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1047576,
+          "id": "gpt-4.1-mini",
+          "prices": [
+            {
+              "cacheRead": 0.1,
+              "input": 0.4,
+              "output": 1.6
+            }
+          ],
+          "provider": "openai",
+          "retiredOn": "2027-01-14",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-4.1-mini"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ]
+        },
+        {
+          "aliases": [
+            "gpt-4o-2024-08-06",
+            "gpt-4o-2024-11-20"
+          ],
+          "contextWindowTokens": 128000,
+          "id": "gpt-4o",
+          "prices": [
+            {
+              "cacheRead": 1.25,
+              "input": 2.5,
+              "output": 10
+            }
+          ],
+          "provider": "openai",
+          "retiredOn": "2027-01-14",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-4o"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 128000,
+          "id": "gpt-4o-mini",
+          "prices": [
+            {
+              "cacheRead": 0.075,
+              "input": 0.15,
+              "output": 0.6
+            }
+          ],
+          "provider": "openai",
+          "retiredOn": "2027-01-14",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-4o-mini"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 400000,
+          "id": "gpt-5",
+          "prices": [
+            {
+              "cacheRead": 0.125,
+              "input": 1.25,
+              "output": 10
+            }
+          ],
+          "provider": "openai",
+          "retiredOn": "2026-12-11",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 400000,
+          "id": "gpt-5-mini",
+          "prices": [
+            {
+              "cacheRead": 0.025,
+              "input": 0.25,
+              "output": 2
+            }
+          ],
+          "provider": "openai",
+          "retiredOn": "2026-12-11",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5-mini"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 400000,
+          "id": "gpt-5-nano",
+          "prices": [
+            {
+              "cacheRead": 0.005,
+              "input": 0.05,
+              "output": 0.4
+            }
+          ],
+          "provider": "openai",
+          "retiredOn": "2026-12-11",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5-nano"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 400000,
+          "id": "gpt-5-pro",
+          "prices": [
+            {
+              "input": 15,
+              "output": 120
+            }
+          ],
+          "provider": "openai",
+          "retiredOn": "2026-12-11",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5-pro"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 400000,
+          "id": "gpt-5.1",
+          "prices": [
+            {
+              "cacheRead": 0.125,
+              "input": 1.25,
+              "output": 10
+            }
+          ],
+          "provider": "openai",
+          "retiredOn": "2027-04-01",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5.1"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 400000,
+          "id": "gpt-5.2",
+          "prices": [
+            {
+              "cacheRead": 0.175,
+              "input": 1.75,
+              "output": 14
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5.2"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 400000,
+          "id": "gpt-5.2-pro",
+          "prices": [
+            {
+              "input": 21,
+              "output": 168
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5.2-pro"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 400000,
+          "id": "gpt-5.3-codex",
+          "prices": [
+            {
+              "cacheRead": 0.175,
+              "input": 1.75,
+              "output": 14
+            }
+          ],
+          "provider": "openai",
+          "retiredOn": "2027-04-01",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1050000,
+          "id": "gpt-5.4",
+          "prices": [
+            {
+              "cacheRead": 0.25,
+              "input": 2.5,
+              "maxPromptTokens": 272000,
+              "output": 15
+            },
+            {
+              "cacheRead": 0.5,
+              "input": 5,
+              "output": 22.5
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5.4"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 400000,
+          "id": "gpt-5.4-mini",
+          "prices": [
+            {
+              "cacheRead": 0.075,
+              "input": 0.75,
+              "output": 4.5
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 400000,
+          "id": "gpt-5.4-nano",
+          "prices": [
+            {
+              "cacheRead": 0.02,
+              "input": 0.2,
+              "output": 1.25
+            }
+          ],
+          "provider": "openai",
+          "retiredOn": "2027-04-01",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5.4-nano"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1050000,
+          "id": "gpt-5.4-pro",
+          "prices": [
+            {
+              "input": 30,
+              "maxPromptTokens": 272000,
+              "output": 180
+            },
+            {
+              "input": 60,
+              "output": 270
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5.4-pro"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1050000,
+          "id": "gpt-5.5",
+          "prices": [
+            {
+              "cacheRead": 0.5,
+              "input": 5,
+              "maxPromptTokens": 272000,
+              "output": 30
+            },
+            {
+              "cacheRead": 1,
+              "input": 10,
+              "output": 45
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5.5"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1050000,
+          "id": "gpt-5.5-pro",
+          "prices": [
+            {
+              "input": 30,
+              "maxPromptTokens": 272000,
+              "output": 180
+            },
+            {
+              "input": 60,
+              "output": 270
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5.5-pro"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1050000,
+          "id": "gpt-5.6-luna",
+          "prices": [
+            {
+              "cacheRead": 0.02,
+              "cacheWrite": 0.25,
+              "input": 0.2,
+              "maxPromptTokens": 272000,
+              "output": 1.2
+            },
+            {
+              "cacheRead": 0.04,
+              "cacheWrite": 0.5,
+              "input": 0.4,
+              "output": 1.8
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5.6-luna"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [
+            "gpt-5.6"
+          ],
+          "contextWindowTokens": 1050000,
+          "id": "gpt-5.6-sol",
+          "prices": [
+            {
+              "cacheRead": 0.4,
+              "cacheWrite": 5,
+              "input": 4,
+              "maxPromptTokens": 272000,
+              "output": 20
+            },
+            {
+              "cacheRead": 0.8,
+              "cacheWrite": 10,
+              "input": 8,
+              "output": 30
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1050000,
+          "id": "gpt-5.6-terra",
+          "prices": [
+            {
+              "cacheRead": 0.2,
+              "cacheWrite": 2.5,
+              "input": 2,
+              "maxPromptTokens": 272000,
+              "output": 12
+            },
+            {
+              "cacheRead": 0.4,
+              "cacheWrite": 5,
+              "input": 4,
+              "output": 18
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5.6-terra"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1050000,
+          "id": "gpt-6-astra",
+          "prices": [
+            {
+              "cacheRead": 1,
+              "cacheWrite": 12.5,
+              "input": 10,
+              "maxPromptTokens": 272000,
+              "output": 50
+            },
+            {
+              "cacheRead": 2,
+              "cacheWrite": 25,
+              "input": 20,
+              "output": 75
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-6-astra"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1050000,
+          "id": "gpt-6-luna",
+          "prices": [
+            {
+              "cacheRead": 0.01,
+              "cacheWrite": 0.125,
+              "input": 0.1,
+              "maxPromptTokens": 272000,
+              "output": 0.5
+            },
+            {
+              "cacheRead": 0.02,
+              "cacheWrite": 0.25,
+              "input": 0.2,
+              "output": 0.75
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-6-luna"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1050000,
+          "id": "gpt-6-sol",
+          "prices": [
+            {
+              "cacheRead": 0.2,
+              "cacheWrite": 2.5,
+              "input": 2,
+              "maxPromptTokens": 272000,
+              "output": 10
+            },
+            {
+              "cacheRead": 0.4,
+              "cacheWrite": 5,
+              "input": 4,
+              "output": 15
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-6-sol"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1050000,
+          "id": "gpt-6.1-sol",
+          "prices": [
+            {
+              "cacheRead": 0.1,
+              "cacheWrite": 2.5,
+              "input": 2,
+              "maxPromptTokens": 272000,
+              "output": 10
+            },
+            {
+              "cacheRead": 0.2,
+              "cacheWrite": 5,
+              "input": 4,
+              "output": 15
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 1050000,
+          "id": "gpt-6.1-terra",
+          "prices": [
+            {
+              "cacheRead": 0.05,
+              "cacheWrite": 1.25,
+              "input": 1,
+              "maxPromptTokens": 272000,
+              "output": 5
+            },
+            {
+              "cacheRead": 0.1,
+              "cacheWrite": 2.5,
+              "input": 2,
+              "output": 7.5
+            }
+          ],
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 200000,
+          "id": "o3",
+          "prices": [
+            {
+              "cacheRead": 0.5,
+              "input": 2,
+              "output": 8
+            }
+          ],
+          "provider": "openai",
+          "retiredOn": "2026-12-11",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/o3"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ]
+        },
+        {
+          "aliases": [],
+          "contextWindowTokens": 200000,
+          "id": "o3-pro",
+          "prices": [
+            {
+              "input": 20,
+              "output": 80
+            }
+          ],
+          "provider": "openai",
+          "retiredOn": "2026-12-11",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://models.dev/"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/models/o3-pro"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ]
+        }
+      ],
+      "plans": [
+        {
+          "id": "claude-max",
+          "name": "Claude Max",
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://support.claude.com/en/articles/11049741-what-is-the-max-plan"
+            },
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work"
+            }
+          ],
+          "windows": [
+            {
+              "durationMinutes": 300,
+              "window": "five-hour"
+            },
+            {
+              "durationMinutes": 10080,
+              "window": "weekly"
+            }
+          ]
+        },
+        {
+          "id": "claude-pro",
+          "name": "Claude Pro",
+          "provider": "anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work"
+            }
+          ],
+          "windows": [
+            {
+              "durationMinutes": 300,
+              "window": "five-hour"
+            },
+            {
+              "durationMinutes": 10080,
+              "window": "weekly"
+            }
+          ]
+        },
+        {
+          "id": "free",
+          "name": "Free",
+          "provider": "cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "finding": "DevPulse's live check of Cursor Agent 2026.10.22 on a Free account: /usage showed the period ending one month after the day it was read."
+            },
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/pricing"
+            }
+          ],
+          "windows": [
+            {
+              "durationMinutes": 43200,
+              "window": "monthly"
+            }
+          ]
+        },
+        {
+          "id": "hobby",
+          "name": "Hobby",
+          "provider": "cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/docs/models-and-pricing"
+            }
+          ],
+          "windows": [
+            {
+              "durationMinutes": 43200,
+              "window": "monthly"
+            }
+          ]
+        },
+        {
+          "id": "plus",
+          "name": "Plus",
+          "provider": "cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/pricing"
+            }
+          ],
+          "windows": [
+            {
+              "durationMinutes": 10080,
+              "window": "weekly"
+            }
+          ]
+        },
+        {
+          "id": "premium",
+          "name": "Premium",
+          "provider": "cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/pricing"
+            }
+          ],
+          "windows": [
+            {
+              "durationMinutes": 10080,
+              "window": "weekly"
+            }
+          ]
+        },
+        {
+          "id": "pro",
+          "name": "Pro",
+          "provider": "cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/docs/models-and-pricing"
+            }
+          ],
+          "windows": [
+            {
+              "durationMinutes": 43200,
+              "window": "monthly"
+            }
+          ]
+        },
+        {
+          "id": "pro-plus",
+          "name": "Pro+",
+          "provider": "cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/docs/models-and-pricing"
+            }
+          ],
+          "windows": [
+            {
+              "durationMinutes": 43200,
+              "window": "monthly"
+            }
+          ]
+        },
+        {
+          "id": "start",
+          "name": "Start",
+          "provider": "cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/docs/models-and-pricing"
+            }
+          ],
+          "windows": [
+            {
+              "durationMinutes": 43200,
+              "window": "monthly"
+            }
+          ]
+        },
+        {
+          "id": "super",
+          "name": "Super",
+          "provider": "cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/pricing"
+            }
+          ],
+          "windows": [
+            {
+              "durationMinutes": 10080,
+              "window": "weekly"
+            }
+          ]
+        },
+        {
+          "id": "chatgpt-business",
+          "name": "ChatGPT Business",
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://learn.chatgpt.com/docs/pricing"
+            }
+          ],
+          "windows": [
+            {
+              "durationMinutes": 300,
+              "window": "five-hour"
+            },
+            {
+              "durationMinutes": 10080,
+              "window": "weekly"
+            }
+          ]
+        },
+        {
+          "id": "chatgpt-plus",
+          "name": "ChatGPT Plus",
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://learn.chatgpt.com/docs/pricing"
+            }
+          ],
+          "windows": [
+            {
+              "durationMinutes": 300,
+              "window": "five-hour"
+            },
+            {
+              "durationMinutes": 10080,
+              "window": "weekly"
+            }
+          ]
+        },
+        {
+          "id": "chatgpt-pro",
+          "name": "ChatGPT Pro",
+          "provider": "openai",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://learn.chatgpt.com/docs/pricing"
+            }
+          ],
+          "windows": [
+            {
+              "durationMinutes": 10080,
+              "window": "weekly"
+            }
+          ]
+        }
+      ],
+      "providers": [
+        {
+          "id": "anthropic",
+          "name": "Anthropic",
+          "sources": [
+            {
+              "checkedOn": "2026-10-25",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            }
+          ]
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "sources": [
+            {
+              "checkedOn": "2026-10-29",
+              "url": "https://cursor.com/docs/models-and-pricing"
+            }
+          ]
+        },
+        {
+          "id": "openai",
+          "name": "OpenAI",
+          "sources": [
+            {
+              "checkedOn": "2026-10-27",
+              "url": "https://learn.chatgpt.com/docs/pricing"
+            }
+          ]
+        }
+      ]
+    },
+    "publishedAt": "2026-10-29T20:48:36Z"
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:U1/5ZnL0QU2i/4O+gCFoskv6hLcKISyZEj7BNjeerBY",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgwIXOh6uH6b9tHbu5CcswKrJSHA\nLUruyyfDgnNchM1IMAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAaMj4ES7LtSgYVnX2yBT9Lx2zvG37v3KNXYvT27Ichv8M33\nOcPxRuqi+891ahbRSI9MjXpb+g6Pl6T3ZB9X0IAQ==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}
