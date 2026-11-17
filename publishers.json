@@ -3,14 +3,15 @@
     "registryId": "devpulse-test-2",
     "schemaVersion": 1,
     "type": "devpulse-registry-publishers",
-    "version": 3,
+    "version": 4,
     "publishers": [
       {
         "displayName": "Arman Yeghiazaryan",
         "id": "otanim",
         "keys": [],
         "sections": [
-          "languages"
+          "languages",
+          "drivers"
         ],
         "status": "active"
       },
@@ -31,7 +32,7 @@
   "signatures": [
     {
       "keyId": "SHA256:TypnUA3L2DdHmyw1YCUS2KZBS4cdC1OdOhmiZ1VeMkM",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg3FjhjoXgLBmeBFYh+/9xNG2Vdj\ngO2TqeETzsCOXrnfcAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAsJn3gSVOOLqwKyfSb7ZjNW8+DXYbbuS54VuReNWkaktj9G\nQHozBpC8I6Ia1jU0Yp3zMlAZe3KszxMkYMRHyhAw==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg3FjhjoXgLBmeBFYh+/9xNG2Vdj\ngO2TqeETzsCOXrnfcAAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABANip8H+p4ADxaUZxNl7rkQXLqSoyv5EPN3msP86FlQJUN2g\ntlcmWh5ReCnyE11Og1bPIrA++t3fR2/hZcwTHsBQ==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }
