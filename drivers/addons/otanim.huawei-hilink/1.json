@@ -1,0 +1,280 @@
+{
+  "signed": {
+    "registryId": "devpulse-test-2",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-addon",
+    "version": 1,
+    "id": "otanim.huawei-hilink",
+    "repository": "https://github.com/devpulseapp/devpulse-drivers",
+    "section": "drivers",
+    "versions": [
+      {
+        "file": {
+          "name": "otanim.huawei-hilink-0.1.0.devpulse-driver",
+          "sha256": "b053829759efa34f987515ac3a4c121b5ac49a28efbe96e814bd3565fdcc2f14",
+          "size": 25091,
+          "url": "https://github.com/devpulseapp/devpulse-drivers/releases/download/2026.11.17/otanim.huawei-hilink-0.1.0.devpulse-driver"
+        },
+        "manifest": {
+          "apiFeatures": {
+            "optional": [],
+            "required": [
+              "contributions.device-v1"
+            ]
+          },
+          "apiVersion": 2,
+          "authors": [
+            {
+              "name": "Arman Yeghiazaryan"
+            }
+          ],
+          "changelog": "CHANGELOG.md",
+          "contributes": [
+            {
+              "description": "A USB stick with a HiLink mode and a Serial / AT mode.",
+              "displayName": "Huawei E303",
+              "family": "cellular",
+              "id": "e303",
+              "modeChanges": [
+                {
+                  "before": [
+                    "mobile-data-off"
+                  ],
+                  "by": "device-request",
+                  "from": "hilink",
+                  "observeSeconds": 60,
+                  "request": "device-mode-switch",
+                  "to": "serial-at"
+                },
+                {
+                  "by": "reconnect",
+                  "from": "serial-at",
+                  "observeSeconds": 300,
+                  "to": "hilink"
+                }
+              ],
+              "modes": [
+                {
+                  "defaultRadioModes": [
+                    "2g",
+                    "3g"
+                  ],
+                  "displayName": "Serial / AT",
+                  "id": "serial-at",
+                  "limits": [
+                    {
+                      "ability": "telephony.call",
+                      "effect": "calls-need-generation:2g",
+                      "id": "calls-need-2g",
+                      "match": {
+                        "bridgeVersionPrefix": "1.20.",
+                        "manufacturer": "huawei",
+                        "model": "E303",
+                        "plugin": "huawei",
+                        "revision": "22.157.18.03.910"
+                      },
+                      "observedOn": "2026-10-24"
+                    },
+                    {
+                      "ability": "telephony.call",
+                      "effect": "declines-read-unknown",
+                      "id": "call-declines-read-unknown",
+                      "match": {
+                        "bridgeVersionPrefix": "1.20.",
+                        "manufacturer": "huawei",
+                        "model": "E303",
+                        "plugin": "huawei",
+                        "revision": "22.157.18.03.910"
+                      },
+                      "observedOn": "2026-10-24"
+                    }
+                  ],
+                  "provides": [
+                    "telephony.sms",
+                    "telephony.call",
+                    "telephony.ussd"
+                  ],
+                  "recognise": [
+                    {
+                      "bridge": "modemmanager",
+                      "kernelDriver": "option",
+                      "manufacturer": "huawei",
+                      "model": {
+                        "oneOf": [
+                          "E303",
+                          "E303s"
+                        ]
+                      },
+                      "plugin": "huawei",
+                      "revision": "22.157.18.03.910"
+                    },
+                    {
+                      "bridge": "modemmanager",
+                      "kernelDriver": "option",
+                      "manufacturer": "huawei",
+                      "model": {
+                        "startsWith": "E303s-"
+                      },
+                      "plugin": "huawei",
+                      "revision": "22.157.18.03.910"
+                    },
+                    {
+                      "usb": {
+                        "kernelDriver": "option",
+                        "productIds": [
+                          "1442"
+                        ],
+                        "vendorId": "12d1"
+                      }
+                    }
+                  ],
+                  "requirementIds": [
+                    "modemmanager"
+                  ],
+                  "servedBy": {
+                    "bridge": "modemmanager"
+                  },
+                  "supportedTargets": [
+                    {
+                      "architecture": "x64",
+                      "platform": "linux"
+                    },
+                    {
+                      "architecture": "arm64",
+                      "platform": "linux"
+                    }
+                  ]
+                },
+                {
+                  "displayName": "HiLink",
+                  "id": "hilink",
+                  "provides": [
+                    "telephony.sms"
+                  ],
+                  "recognise": [
+                    {
+                      "usb": {
+                        "kernelDriver": "cdc_ether",
+                        "manufacturerContains": "huawei",
+                        "productContains": "hilink",
+                        "productIds": [
+                          "14db"
+                        ],
+                        "vendorId": "12d1"
+                      }
+                    }
+                  ],
+                  "servedBy": {
+                    "bridge": "builtin-hilink"
+                  },
+                  "supportedTargets": [
+                    {
+                      "architecture": "x64",
+                      "platform": "linux"
+                    },
+                    {
+                      "architecture": "arm64",
+                      "platform": "linux"
+                    }
+                  ]
+                }
+              ],
+              "passesThrough": [
+                {
+                  "meaning": "recovery",
+                  "usb": {
+                    "manufacturerContains": "huawei",
+                    "productContains": "hilink",
+                    "productIds": [
+                      "1f01"
+                    ],
+                    "vendorId": "12d1"
+                  }
+                }
+              ],
+              "permissionIds": [
+                "provide"
+              ],
+              "requirementIds": [],
+              "settingIds": [],
+              "type": "device"
+            }
+          ],
+          "defaultLocale": "en",
+          "description": "Lets DevPulse recognise the Huawei E303 USB stick in both of its modes, HiLink and Serial / AT, and know the limits seen on its firmware.",
+          "displayName": "Huawei HiLink sticks",
+          "engines": {
+            "devpulse": ">=0.0.1 <1.0.0"
+          },
+          "id": "otanim.huawei-hilink",
+          "license": "Apache-2.0",
+          "licenseFile": "LICENSE",
+          "locales": [
+            "en",
+            "hy",
+            "ja",
+            "ar"
+          ],
+          "manifestVersion": 2,
+          "permissions": [
+            {
+              "capability": "devices.driver.provide",
+              "id": "provide",
+              "reason": "Adds what DevPulse knows about the stick.",
+              "requiredness": "required",
+              "scope": {
+                "kind": "add-on"
+              }
+            }
+          ],
+          "publisher": {
+            "displayName": "Arman Yeghiazaryan",
+            "id": "otanim"
+          },
+          "readme": "README.md",
+          "requirements": [
+            {
+              "displayName": "ModemManager",
+              "id": "modemmanager",
+              "kind": "software",
+              "reason": "Talks to the stick in its Serial / AT mode.",
+              "requiredness": "required",
+              "softwareId": "modemmanager",
+              "supportedTargets": [
+                {
+                  "architecture": "x64",
+                  "platform": "linux"
+                },
+                {
+                  "architecture": "arm64",
+                  "platform": "linux"
+                }
+              ]
+            }
+          ],
+          "runtime": {
+            "id": "huawei-hilink",
+            "tier": "declarative"
+          },
+          "settings": [],
+          "target": {
+            "architecture": "any",
+            "platform": "any"
+          },
+          "version": "0.1.0"
+        },
+        "publishedAt": "2026-11-17T23:59:13Z",
+        "status": {
+          "state": "active"
+        },
+        "version": "0.1.0"
+      }
+    ]
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:hyVS4cYuFF5fYFjD+Fk/QUaFF0ODgCn514rNw4BZnxQ",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg+bp3sOd7XxfQwigG+ctVZHfeSf\noTr+gDoeAD7fawn34AAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAO92Kormv5hLbGHkfkrEYVBQ6W4mjU7mif6wvjwacmqTUVN\n2O+8rsX5gAIGwQbdlywg/5up2ZQAISGJ5yIlXsDw==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}

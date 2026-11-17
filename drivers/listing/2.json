@@ -1,0 +1,39 @@
+{
+  "signed": {
+    "registryId": "devpulse-test-2",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-listing",
+    "version": 2,
+    "addons": [
+      {
+        "description": "Lets DevPulse recognise the Huawei E17X USB modem and know the limits seen on its firmware.",
+        "devpulse": ">=0.0.1 <1.0.0",
+        "displayName": "Huawei E17X",
+        "id": "otanim.huawei-e17x",
+        "latestVersion": "0.1.0",
+        "publisher": {
+          "displayName": "Arman Yeghiazaryan",
+          "id": "otanim"
+        }
+      },
+      {
+        "description": "Lets DevPulse recognise the Huawei E303 USB stick in both of its modes, HiLink and Serial / AT, and know the limits seen on its firmware.",
+        "devpulse": ">=0.0.1 <1.0.0",
+        "displayName": "Huawei HiLink sticks",
+        "id": "otanim.huawei-hilink",
+        "latestVersion": "0.1.0",
+        "publisher": {
+          "displayName": "Arman Yeghiazaryan",
+          "id": "otanim"
+        }
+      }
+    ],
+    "section": "drivers"
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:hyVS4cYuFF5fYFjD+Fk/QUaFF0ODgCn514rNw4BZnxQ",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg+bp3sOd7XxfQwigG+ctVZHfeSf\noTr+gDoeAD7fawn34AAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABADMaWltJTtEN2Zf13rWQzv0wo6mE3ydWbyvQh+jjGekt1tJ\nqLtQT9k1ZEGLTK8MEg2apiV4Z7VcEqJeonxwIeBg==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}
