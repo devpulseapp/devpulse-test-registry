@@ -1,0 +1,188 @@
+{
+  "signed": {
+    "registryId": "devpulse-test-2",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-addon",
+    "version": 2,
+    "id": "otanim.huawei-e17x",
+    "repository": "https://github.com/devpulseapp/devpulse-drivers",
+    "section": "drivers",
+    "versions": [
+      {
+        "file": {
+          "name": "otanim.huawei-e17x-0.1.0.devpulse-driver",
+          "sha256": "eb9d884f54b6afcdda18eeb624b7c0b224703882d6fd2af3477839a96e3abdae",
+          "size": 22925,
+          "url": "https://github.com/devpulseapp/devpulse-drivers/releases/download/2026.11.17/otanim.huawei-e17x-0.1.0.devpulse-driver"
+        },
+        "manifest": {
+          "apiFeatures": {
+            "optional": [],
+            "required": [
+              "contributions.device-v1"
+            ]
+          },
+          "apiVersion": 2,
+          "authors": [
+            {
+              "name": "Arman Yeghiazaryan"
+            }
+          ],
+          "changelog": "CHANGELOG.md",
+          "contributes": [
+            {
+              "description": "A USB modem that ModemManager serves.",
+              "displayName": "Huawei E17X",
+              "family": "cellular",
+              "id": "e17x",
+              "modes": [
+                {
+                  "displayName": "Serial / AT",
+                  "id": "serial-at",
+                  "limits": [
+                    {
+                      "ability": "telephony.call",
+                      "effect": "no-call-progress",
+                      "id": "no-call-progress",
+                      "match": {
+                        "bridgeVersionPrefix": "1.20.",
+                        "manufacturer": "huawei",
+                        "model": "E17X",
+                        "plugin": "huawei",
+                        "revision": "11.304.17.00.00"
+                      },
+                      "observedOn": "2026-10-22"
+                    },
+                    {
+                      "ability": "telephony.ussd",
+                      "effect": "request-rejected",
+                      "id": "ussd-request-rejected",
+                      "match": {
+                        "bridgeVersionPrefix": "1.20.",
+                        "manufacturer": "huawei",
+                        "model": "E17X",
+                        "plugin": "huawei",
+                        "revision": "11.304.17.00.00"
+                      },
+                      "observedOn": "2026-10-22"
+                    }
+                  ],
+                  "provides": [
+                    "telephony.sms",
+                    "telephony.call",
+                    "telephony.ussd"
+                  ],
+                  "recognise": [
+                    {
+                      "bridge": "modemmanager",
+                      "manufacturer": "huawei",
+                      "model": "E17X",
+                      "plugin": "huawei"
+                    }
+                  ],
+                  "requirementIds": [
+                    "modemmanager"
+                  ],
+                  "servedBy": {
+                    "bridge": "modemmanager"
+                  },
+                  "supportedTargets": [
+                    {
+                      "architecture": "x64",
+                      "platform": "linux"
+                    },
+                    {
+                      "architecture": "arm64",
+                      "platform": "linux"
+                    }
+                  ]
+                }
+              ],
+              "permissionIds": [
+                "provide"
+              ],
+              "requirementIds": [],
+              "settingIds": [],
+              "type": "device"
+            }
+          ],
+          "defaultLocale": "en",
+          "description": "Lets DevPulse recognise the Huawei E17X USB modem and know the limits seen on its firmware.",
+          "displayName": "Huawei E17X",
+          "engines": {
+            "devpulse": ">=0.0.1 <1.0.0"
+          },
+          "id": "otanim.huawei-e17x",
+          "license": "Apache-2.0",
+          "licenseFile": "LICENSE",
+          "locales": [
+            "en",
+            "hy",
+            "ja",
+            "ar"
+          ],
+          "manifestVersion": 2,
+          "permissions": [
+            {
+              "capability": "devices.driver.provide",
+              "id": "provide",
+              "reason": "Adds what DevPulse knows about the modem.",
+              "requiredness": "required",
+              "scope": {
+                "kind": "add-on"
+              }
+            }
+          ],
+          "publisher": {
+            "displayName": "Arman Yeghiazaryan",
+            "id": "otanim"
+          },
+          "readme": "README.md",
+          "requirements": [
+            {
+              "displayName": "ModemManager",
+              "id": "modemmanager",
+              "kind": "software",
+              "reason": "Talks to the modem.",
+              "requiredness": "required",
+              "softwareId": "modemmanager",
+              "supportedTargets": [
+                {
+                  "architecture": "x64",
+                  "platform": "linux"
+                },
+                {
+                  "architecture": "arm64",
+                  "platform": "linux"
+                }
+              ]
+            }
+          ],
+          "runtime": {
+            "id": "huawei-e17x",
+            "tier": "declarative"
+          },
+          "settings": [],
+          "target": {
+            "architecture": "any",
+            "platform": "any"
+          },
+          "version": "0.1.0"
+        },
+        "publishedAt": "2026-11-17T23:59:13Z",
+        "status": {
+          "reason": "Taken out of the test list until launch: development builds can't install it before then.",
+          "state": "yanked",
+          "yankedAt": "2026-11-21T05:33:47Z"
+        },
+        "version": "0.1.0"
+      }
+    ]
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:hyVS4cYuFF5fYFjD+Fk/QUaFF0ODgCn514rNw4BZnxQ",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg+bp3sOd7XxfQwigG+ctVZHfeSf\noTr+gDoeAD7fawn34AAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAYZi6RyOKWOz60GeGkOj0Uq2DLJQSDEk5Stc83CcF69QVOI\nmROUwfbu/FLFXuIss8MH30LYSfRBBOM4ToqgErCQ==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}

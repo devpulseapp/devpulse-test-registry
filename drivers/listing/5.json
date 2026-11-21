@@ -1,0 +1,28 @@
+{
+  "signed": {
+    "registryId": "devpulse-test-2",
+    "schemaVersion": 1,
+    "type": "devpulse-registry-listing",
+    "version": 5,
+    "addons": [
+      {
+        "description": "Lets DevPulse recognise the Huawei E17X USB modem and know the limits seen on its firmware.",
+        "devpulse": ">=0.0.1 <1.0.0",
+        "displayName": "Huawei E17X",
+        "id": "otanim.huawei-e17x",
+        "latestVersion": "0.1.0",
+        "publisher": {
+          "displayName": "Arman Yeghiazaryan",
+          "id": "otanim"
+        }
+      }
+    ],
+    "section": "drivers"
+  },
+  "signatures": [
+    {
+      "keyId": "SHA256:hyVS4cYuFF5fYFjD+Fk/QUaFF0ODgCn514rNw4BZnxQ",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg+bp3sOd7XxfQwigG+ctVZHfeSf\noTr+gDoeAD7fawn34AAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA8M8hmtAtCSJvtJ7tWX1Nc2T0nQRBOXOmJ3q9W95FPWC+fh\nbSf/b6B7O1V3EAJF+qFFkXiTeYTObEKsn75b9DBw==\n-----END SSH SIGNATURE-----\n"
+    }
+  ]
+}

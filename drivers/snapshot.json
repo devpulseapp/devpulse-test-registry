@@ -3,30 +3,30 @@
     "registryId": "devpulse-test-2",
     "schemaVersion": 1,
     "type": "devpulse-registry-snapshot",
-    "version": 3,
+    "version": 6,
     "addons": {
       "otanim.huawei-e17x": {
-        "sha256": "2435af239ad4cf3dc38648cee45167b79a84a061d1e99339835fabe7037cd461",
-        "size": 6135,
-        "version": 1
+        "sha256": "481796a9f4f5f56c3e6171216b7bd17a875d3f488cb7aa8cb9059081fd703b7a",
+        "size": 6294,
+        "version": 2
       },
       "otanim.huawei-hilink": {
-        "sha256": "60dd418f84ce6e166eb48815ef0f5211a3ba942ad6b10f5d583ced36fa778fba",
-        "size": 21749,
-        "version": 2
+        "sha256": "2545772275de160e70f8b6cf8a8bdebc03a8cba658a578de3638a0221589087e",
+        "size": 22067,
+        "version": 4
       }
     },
     "listing": {
-      "sha256": "8ad68432d548b8281b29b9ec848e46bebf0f9d7a839df28a5a097bf3e34dd6cf",
-      "size": 1507,
-      "version": 3
+      "sha256": "498624506bdace6e65c85f7a9c4f3801d4c5543f67fdd07d987300d4600cd888",
+      "size": 631,
+      "version": 6
     },
     "section": "drivers"
   },
   "signatures": [
     {
       "keyId": "SHA256:hyVS4cYuFF5fYFjD+Fk/QUaFF0ODgCn514rNw4BZnxQ",
-      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg+bp3sOd7XxfQwigG+ctVZHfeSf\noTr+gDoeAD7fawn34AAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA/jY88rMKb5WC5qJnJoXo9PgjAZv0TYtbG9cWfSgOBHtHHE\n8AA/6Xy6TqQjJs/pAekKYeyvdazMjYoBzdw6onCQ==\n-----END SSH SIGNATURE-----\n"
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg+bp3sOd7XxfQwigG+ctVZHfeSf\noTr+gDoeAD7fawn34AAAARZGV2cHVsc2UtcmVnaXN0cnkAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABA1nTLg/7v+S7MJTh4jXUnlk0fDOnNR1lC6QOUHscSWgnXQl\nbN6nuM7uOhUj5Xi2qTEO8svzFcvKRLBwUyu4CdBg==\n-----END SSH SIGNATURE-----\n"
     }
   ]
 }
